@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pont_de_recouvrance" version="3">
+  <DEPS>
+    <ID name="Pont_de_recouvrance" mc="AnalystProject" uid="f71ec63e-74ae-4e93-bc28-405b2cd04912"/>
+    <COMPID name="Pont_de_recouvrance" mc="PropertyContainer" uid="4b4a3f63-be7e-4e78-8639-550ef1c69b6a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Pont_de_recouvrance" mc="AnalystProject" uid="f71ec63e-74ae-4e93-bc28-405b2cd04912"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Pont_de_recouvrance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="Pont_de_recouvrance" mc="PropertyContainer" uid="4b4a3f63-be7e-4e78-8639-550ef1c69b6a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

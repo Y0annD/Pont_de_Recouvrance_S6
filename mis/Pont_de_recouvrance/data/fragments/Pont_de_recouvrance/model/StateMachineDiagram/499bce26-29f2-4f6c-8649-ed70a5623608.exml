@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine State Machine diagram" version="3">
+  <DEPS>
+    <ID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="499bce26-29f2-4f6c-8649-ed70a5623608"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="499bce26-29f2-4f6c-8649-ed70a5623608"/>
+    <PID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">7</ATT>
+      <ATT name="UiData"><![CDATA[eJztmW1zojoUx78Kw3soICJM3e5s616vs/Zh7N6d2VedA0SbbUg6IW7rt7/BQKvUUlSs3VlnfGGQ/E8efufknNj9/JgQ7TfiKWb0k26blq59Pulehr9QJDQcy0e6Jmb36JPO+MRMWIwIZmaMYcIhMVGMBeNmKkAgExGUICpS1Sxe6SfXWbOnmrqWwC/Gb54sWvpJ94qze8TFTKOQSEMEZmwqeiBA/vYDyBTlI6BTQvSjk+5R0eFF12sxI0hfGr9TNf40ez81I8aRqfrWGN8ZpBHEKC6MfX0UIzSuaeVCSuQ9NfQoeuFAjnH+NfsSozFMiShN8khNp2riHJFszeU4Smt2nj3SfmdPsuWRL51DdItpsSGaGwRhhBzPcIKxY7hjLzJ8zw0MFHcsaHtOy7P86kUnkIpvlD3QIYSIlOxfC47pRD+Zm9Zy29pyK1+n7tG8Y+U0GUEDesaSe5ZiITfoFWs1pM5uMYk5yhSGOBVLzLTWZx5TOR4g6mk/GajmfJ5bMT+SYwI6yXDJNzEIjm27dWzY8rO2N7g794bMFZTf7QjifGmvUjSNmQLJc/ywFfiREbf90HC9MDAAua5hgRM57Tb4LrQbYDi3rOj9OLS2G6X1iuME+OxC6rx/sPbq4imlHmdbM+oeGK3L6DlgmjGxSvJp2RZ2slMJZcFhxJKEUZNkEzKzAUkYsxNSzXAb/AZUoAniTztie2vD6B9g/KAwXks5QnAtzfSWPdzg6IXWKZPGgD6t0liGQ1Q957nUHZo9MB43oCYgurtJBeKINTQ2smIvylqCT8tSz6Sps+UN1w42rAiKUqDhfMjxrGPbsjZMiGzrz8+IlE+7Vscbt7JEPgLPcH0vMHw39Iy4E0XQQR3bt1sN+PTlVM5dfJzsx960QC1w3GvCY9cuT5s5ZCTuBwjXTG/WgXGDynEJxu0Tn80wrF0XNoThIRauFLxFcrX4X5LVrMhEdpHULGK+Qan8XCPLOVEg3zlQtYdpn7Pp/R6c9Z2r5IOzrhYUzyRscmzUS7bt6kK6EtkRmuwT03eunw+YrhbkioJmEC31wOkP2cIRbBCgX0rhFIfzLV33DKooYEtWXub8Zs7aW/dHdY6X6sp45aXX/K38J+myPfUH0D8Sy3/nuUCjl2DlK6a3ndipXR4f6pNdOvEggYkqDv6S5HB/V16rI8a2YeJNO0NM79L6kfd00uPwINkYwkzaX3ba6iuRIg7FSiCVkUhKZMFnUfF98oX1eu3zX25c5r9wzV7fHH75+XV0c/rl7Ft/dPnfRa/hdPB1lcUde4ZnEYXK+6UDCjtC4fvlVdMMvPrT/ws+fzA=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[State Machine State Machine diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
