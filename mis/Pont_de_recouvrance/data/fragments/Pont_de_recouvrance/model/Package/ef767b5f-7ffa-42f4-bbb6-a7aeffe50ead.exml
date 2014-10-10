@@ -2,8 +2,11 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pont_de_recouvrance" version="3">
   <DEPS>
     <ID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
+    <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
+    <COMPID name="Simuler le pont" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
     <COMPID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="fa58d01b-5dd1-443a-a5ff-15136374a397"/>
+    <COMPID name="pont_de_recouvrance Use Case diagram" mc="UseCaseDiagram" uid="34bddcca-0a16-48c8-a46f-6558110165af"/>
   </DEPS>
   <OBJECT>
     <ID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
@@ -21,8 +24,13 @@
       <COMP relation="OwnedBehavior">
         <COMPID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
       </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
+        <COMPID name="Simuler le pont" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
+      </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="fa58d01b-5dd1-443a-a5ff-15136374a397"/>
+        <COMPID name="pont_de_recouvrance Use Case diagram" mc="UseCaseDiagram" uid="34bddcca-0a16-48c8-a46f-6558110165af"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
