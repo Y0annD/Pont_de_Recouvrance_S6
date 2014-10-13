@@ -1,0 +1,79 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[C]{\includegraphics[width=7cm]{../images/top}}
+\fancyhead[L]{\includegraphics[width=2cm]{../images/enib}}
+\fancyhead[R]{S6A-02}
+
+\renewcommand{\footrulewidth}{1pt}
+%\fancyfoot[L]{\textbf{page \thepage}}
+\fancyfoot[C]{Corentin Pouplard - Fidel Nguyen - Simon Tartière -
+  Yoann Diquélou}
+%\fancyfoot[R]{\leftmark}
+
+\title{{\Huge \bf Résumé cours 03/10/2014}\\
+  \vspace{0.5cm}
+\centerline{  Corentin Pouplard - Fidel Nguyen}
+\centerline{ Simon Tartière -  Yoann Diquélou}
+\vspace{0.5cm}
+\date{\today}
+}
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+\hrule
+\section*{Objectif}
+Préparer les diagrammes UML
+\section*{Travail effectué}
+Lors de cette séance, nous avons énuméré un ensemble de
+fonctionnalités liées aux systèmes:
+
+\section*{Actions}
+Mise en mouvement du pont: 
+\begin{itemize}
+\item Rentrer les verrous
+\item Ouvrir les machoires
+\item Actionner les cabestants
+\end{itemize}
+
+Fermeture:
+\begin{itemize}
+\item    fermer les machoires
+\item    fermer les verrous
+\end{itemize}
+
+\section*{Actions de l'acteur}
+Les différentes actions que nous avons identifiées sont:
+\begin{itemize}
+\item Se déplacer
+\item Intéragir avec les différents mécanismes
+\item Changer la force applicable sur les cabestants
+\end{itemize}
+
+\section*{Systèmes globaux identifiés}
+Nous avons identifiés 4 systèmes globaux, eux-même constitué de
+sous-système (que nous détaillerons plus tard):
+\begin{itemize}
+\item Verrous
+\item Machoires
+\item Cabestants et engrenages
+\item Travées
+\end{itemize}
+
+\section*{Idées abordées}
+Nous avons abordé l'idée que l'utilisateur puisse se déplacer
+librement, puis lorsqu'il actionne un système, on déplace la camèra
+sur ce système, puis à partir de ce moment, il peut continuer à ce
+déplacer librement.
+
+\section*{A faire rapidement}
+Prendre contact avec Pierre Vanderwagen pour récupérer les plans du
+pont.\\
+Débuter les diagrammes UML.
+\end{document}
