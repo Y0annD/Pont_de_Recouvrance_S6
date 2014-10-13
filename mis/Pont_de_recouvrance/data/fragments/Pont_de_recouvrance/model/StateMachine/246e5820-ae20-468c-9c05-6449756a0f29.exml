@@ -2,7 +2,6 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine" version="3">
   <DEPS>
     <ID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
-    <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="499bce26-29f2-4f6c-8649-ed70a5623608"/>
   </DEPS>
   <OBJECT>
     <ID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
@@ -78,9 +77,6 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-      </COMP>
-      <COMP relation="Product">
-        <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="499bce26-29f2-4f6c-8649-ed70a5623608"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

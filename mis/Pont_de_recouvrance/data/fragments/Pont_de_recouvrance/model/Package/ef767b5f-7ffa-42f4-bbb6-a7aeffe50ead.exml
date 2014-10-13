@@ -2,15 +2,15 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="pont_de_recouvrance" version="3">
   <DEPS>
     <ID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
-    <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
     <COMPID name="Découvrir l'histoire du pont" mc="UseCase" uid="6641db37-0d0f-485b-be54-ed7595573a50"/>
+    <COMPID name="Interaction" mc="Interaction" uid="22c039e7-2304-4b94-8b1a-86108b7dab6b"/>
     <COMPID name="Lancer la simulation" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
     <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="7da622db-3c74-4ef9-8e60-6166c8816034"/>
     <COMPID name="Se déplacer" mc="UseCase" uid="17ee0029-3d34-4146-9f1d-06d936f6ba61"/>
     <COMPID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
     <COMPID name="Use Case" mc="UseCase" uid="7dde977d-d285-4a88-ab5a-ef686bbede2a"/>
     <COMPID name="Use_Case Général" mc="UseCaseDiagram" uid="34bddcca-0a16-48c8-a46f-6558110165af"/>
-    <COMPID name="overview diagram" mc="ClassDiagram" uid="fa58d01b-5dd1-443a-a5ff-15136374a397"/>
+    <COMPID name="User" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
   </DEPS>
   <OBJECT>
     <ID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
@@ -27,9 +27,10 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
+        <COMPID name="Interaction" mc="Interaction" uid="22c039e7-2304-4b94-8b1a-86108b7dab6b"/>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
+        <COMPID name="User" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
         <COMPID name="Lancer la simulation" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
         <COMPID name="Use Case" mc="UseCase" uid="7dde977d-d285-4a88-ab5a-ef686bbede2a"/>
         <COMPID name="Se déplacer" mc="UseCase" uid="17ee0029-3d34-4146-9f1d-06d936f6ba61"/>
@@ -37,7 +38,6 @@
         <COMPID name="Découvrir l'histoire du pont" mc="UseCase" uid="6641db37-0d0f-485b-be54-ed7595573a50"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="overview diagram" mc="ClassDiagram" uid="fa58d01b-5dd1-443a-a5ff-15136374a397"/>
         <COMPID name="Use_Case Général" mc="UseCaseDiagram" uid="34bddcca-0a16-48c8-a46f-6558110165af"/>
       </COMP>
     </DEPENDENCIES>
