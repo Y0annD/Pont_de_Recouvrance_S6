@@ -3,7 +3,7 @@
   <DEPS>
     <ID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
     <COMPID name="Découvrir l'histoire du pont" mc="UseCase" uid="6641db37-0d0f-485b-be54-ed7595573a50"/>
-    <COMPID name="Interaction" mc="Interaction" uid="22c039e7-2304-4b94-8b1a-86108b7dab6b"/>
+    <COMPID name="Interaction" mc="Interaction" uid="84cedec4-2385-423e-9736-820b37487d0b"/>
     <COMPID name="Lancer la simulation" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
     <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="7da622db-3c74-4ef9-8e60-6166c8816034"/>
     <COMPID name="Se déplacer" mc="UseCase" uid="17ee0029-3d34-4146-9f1d-06d936f6ba61"/>
@@ -27,7 +27,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
-        <COMPID name="Interaction" mc="Interaction" uid="22c039e7-2304-4b94-8b1a-86108b7dab6b"/>
+        <COMPID name="Interaction" mc="Interaction" uid="84cedec4-2385-423e-9736-820b37487d0b"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="User" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
