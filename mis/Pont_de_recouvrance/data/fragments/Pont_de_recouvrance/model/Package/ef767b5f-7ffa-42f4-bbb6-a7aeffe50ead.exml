@@ -8,6 +8,7 @@
     <COMPID name="Interaction1" mc="Interaction" uid="99da1309-340f-4350-b4be-4dec5ce0e111"/>
     <COMPID name="Interaction2" mc="Interaction" uid="781a7da6-1f28-43d4-bedb-6959f37c29f6"/>
     <COMPID name="Interaction3" mc="Interaction" uid="029b569a-7a66-4bf0-8806-cc38cc2ae982"/>
+    <COMPID name="Interaction4" mc="Interaction" uid="e0637c52-27d0-4297-92d4-842687cf2ff4"/>
     <COMPID name="Lancer la simulation" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
     <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="7da622db-3c74-4ef9-8e60-6166c8816034"/>
     <COMPID name="Se déplacer" mc="UseCase" uid="17ee0029-3d34-4146-9f1d-06d936f6ba61"/>
@@ -35,6 +36,7 @@
         <COMPID name="Interaction2" mc="Interaction" uid="781a7da6-1f28-43d4-bedb-6959f37c29f6"/>
         <COMPID name="Interaction1" mc="Interaction" uid="99da1309-340f-4350-b4be-4dec5ce0e111"/>
         <COMPID name="Interaction3" mc="Interaction" uid="029b569a-7a66-4bf0-8806-cc38cc2ae982"/>
+        <COMPID name="Interaction4" mc="Interaction" uid="e0637c52-27d0-4297-92d4-842687cf2ff4"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
