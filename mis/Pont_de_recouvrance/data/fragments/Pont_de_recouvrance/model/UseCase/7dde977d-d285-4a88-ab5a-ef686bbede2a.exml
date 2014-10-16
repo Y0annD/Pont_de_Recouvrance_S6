@@ -2,6 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use Case" version="3">
   <DEPS>
     <ID name="Use Case" mc="UseCase" uid="7dde977d-d285-4a88-ab5a-ef686bbede2a"/>
+    <COMPID name="Interaction" mc="Interaction" uid="a5ac10d2-48bc-48ff-bdb0-70232ef5fe34"/>
     <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
     <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
@@ -22,6 +23,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Interaction" uid="a5ac10d2-48bc-48ff-bdb0-70232ef5fe34"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Note" uid="7b634f29-d7af-412d-8ba6-0a3066f45ca5"/>
