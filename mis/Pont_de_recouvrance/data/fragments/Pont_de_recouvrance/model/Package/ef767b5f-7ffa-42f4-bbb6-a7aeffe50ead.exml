@@ -5,7 +5,7 @@
     <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
     <COMPID name="Découvrir l'histoire du pont" mc="UseCase" uid="6641db37-0d0f-485b-be54-ed7595573a50"/>
     <COMPID name="Interaction" mc="Interaction" uid="84cedec4-2385-423e-9736-820b37487d0b"/>
-    <COMPID name="Interaction1" mc="Interaction" uid="99da1309-340f-4350-b4be-4dec5ce0e111"/>
+    <COMPID name="Interaction1" mc="Interaction" uid="0a9bde19-b64e-41c1-9098-c4b2ef26624e"/>
     <COMPID name="Interaction2" mc="Interaction" uid="781a7da6-1f28-43d4-bedb-6959f37c29f6"/>
     <COMPID name="Interaction3" mc="Interaction" uid="029b569a-7a66-4bf0-8806-cc38cc2ae982"/>
     <COMPID name="Lancer la simulation" mc="UseCase" uid="5c9416ae-cb8a-492e-ba2d-36f3fe0a5157"/>
@@ -15,6 +15,7 @@
     <COMPID name="Use Case" mc="UseCase" uid="7dde977d-d285-4a88-ab5a-ef686bbede2a"/>
     <COMPID name="Use_Case Général" mc="UseCaseDiagram" uid="34bddcca-0a16-48c8-a46f-6558110165af"/>
     <COMPID name="actionner" mc="Signal" uid="70e37a04-6cb6-43cd-81ed-2194b3972a80"/>
+    <COMPID name="sequence rotation" mc="Interaction" uid="99da1309-340f-4350-b4be-4dec5ce0e111"/>
   </DEPS>
   <OBJECT>
     <ID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
@@ -33,8 +34,9 @@
         <COMPID name="State Machine" mc="StateMachine" uid="246e5820-ae20-468c-9c05-6449756a0f29"/>
         <COMPID name="Interaction" mc="Interaction" uid="84cedec4-2385-423e-9736-820b37487d0b"/>
         <COMPID name="Interaction2" mc="Interaction" uid="781a7da6-1f28-43d4-bedb-6959f37c29f6"/>
-        <COMPID name="Interaction1" mc="Interaction" uid="99da1309-340f-4350-b4be-4dec5ce0e111"/>
+        <COMPID name="sequence rotation" mc="Interaction" uid="99da1309-340f-4350-b4be-4dec5ce0e111"/>
         <COMPID name="Interaction3" mc="Interaction" uid="029b569a-7a66-4bf0-8806-cc38cc2ae982"/>
+        <COMPID name="Interaction1" mc="Interaction" uid="0a9bde19-b64e-41c1-9098-c4b2ef26624e"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Actor" uid="2e814842-5c93-4f5d-bfe7-e9ddaed5f40d"/>
