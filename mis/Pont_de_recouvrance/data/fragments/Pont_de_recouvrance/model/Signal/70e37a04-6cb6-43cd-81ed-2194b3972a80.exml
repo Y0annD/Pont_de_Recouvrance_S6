@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="actionner" version="3">
+  <DEPS>
+    <ID name="actionner" mc="Signal" uid="70e37a04-6cb6-43cd-81ed-2194b3972a80"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="actionner" mc="Signal" uid="70e37a04-6cb6-43cd-81ed-2194b3972a80"/>
+    <PID name="pont_de_recouvrance" mc="Package" uid="ef767b5f-7ffa-42f4-bbb6-a7aeffe50ead"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[actionner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
