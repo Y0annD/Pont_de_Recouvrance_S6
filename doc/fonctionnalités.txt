@@ -1,0 +1,20 @@
+Mise en mouvement du pont:
+     Rentrer les verrous
+     Ouvrir les machoires
+     Actionner les cabestants
+
+Fermeture:
+    fermer les machoires
+    fermer les verrous
+
+Acteur:
+    Se déplacer
+    interagir avec les différents mécanismes
+    changer la force applicable sur les cabestants
+    
+
+Systemes:
+    verrous
+    machoires
+    cabestants et engrenages
+    travées
