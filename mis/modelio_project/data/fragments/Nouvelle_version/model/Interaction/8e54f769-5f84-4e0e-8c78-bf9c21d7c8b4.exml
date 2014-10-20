@@ -1,0 +1,848 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sequence_rotation" version="3">
+  <DEPS>
+    <ID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+    <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="f9cc1ac9-d7aa-430f-b33e-b45273e8fe69"/>
+    <EXTID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+    <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Sequence_rotation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="842bb230-859d-421a-b8a2-999f18825eb1"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">AltOp</ATT>
+            <ATT name="LineNumber">232</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="InteractionOperand" mc="InteractionOperand" uid="2ba28b42-6177-43a8-af7c-cedf8628e350"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[locquet_ouvert && machoire_ouverte]]></ATT>
+                  <ATT name="EndLineNumber">422</ATT>
+                  <ATT name="LineNumber">232</ATT>
+                  <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="c4d725c3-7d19-4756-91a7-c913ad1ba093"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[loquet_ouvert && !machoire_ouverte]]></ATT>
+                  <ATT name="EndLineNumber">485</ATT>
+                  <ATT name="LineNumber">423</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="InteractionOperand" mc="InteractionOperand" uid="73fa1c95-a681-446f-985c-57ddc59a232e"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[else]]></ATT>
+                  <ATT name="EndLineNumber">614</ATT>
+                  <ATT name="LineNumber">486</ATT>
+                  <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Loquet" mc="Lifeline" uid="ef768483-f0c4-4773-9f1d-d37a2a71e003"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Travee" mc="Lifeline" uid="c58bd290-8814-4bbf-9b8c-6eacc515e04c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Machoire" mc="Lifeline" uid="1a7683cf-c70a-4e4e-a10d-cbecb00d5f22"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="03553e4c-559f-40d6-98ee-c327d804f4a0"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">56</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="est_ouvert()" mc="Message" uid="4b75f6f8-5212-4234-b44d-e75ccffea3e8"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[est_ouvert()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="fc27e65c-9367-47d4-84ae-75da0514b4a0"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="fc27e65c-9367-47d4-84ae-75da0514b4a0"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">56</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="bca09567-edea-47d6-a6b4-60f311a98e1c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Loquet" mc="Lifeline" uid="ef768483-f0c4-4773-9f1d-d37a2a71e003"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="50648fcf-eb74-45f7-907b-11c05295d1f7"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">76</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="9b063cf0-d2bb-4011-9f6b-c16199fc61f6"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="3b4bbac7-4686-4106-a249-b9e8e65387ae"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Loquet" mc="Lifeline" uid="ef768483-f0c4-4773-9f1d-d37a2a71e003"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="bca09567-edea-47d6-a6b4-60f311a98e1c"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">56</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="50648fcf-eb74-45f7-907b-11c05295d1f7"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Loquet" mc="Lifeline" uid="ef768483-f0c4-4773-9f1d-d37a2a71e003"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="3b4bbac7-4686-4106-a249-b9e8e65387ae"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">96</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="InteractionOperand" mc="InteractionOperand" uid="2ba28b42-6177-43a8-af7c-cedf8628e350"/>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="26050539-abf6-41d2-b71f-2a9bbc256c32"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">127</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="est_ouvert()" mc="Message" uid="9e3a03e0-020c-4a88-bf69-b624f5732c57"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[est_ouvert()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="6afc32ac-cc4f-4642-906b-b79562960aeb"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6afc32ac-cc4f-4642-906b-b79562960aeb"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">127</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="cd121fb4-e2bf-426a-8e6d-b67f92672a8c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Machoire" mc="Lifeline" uid="1a7683cf-c70a-4e4e-a10d-cbecb00d5f22"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="aa9dcd2d-ab10-4ec7-9d1d-f879985f12a7"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">147</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="78202f75-78f9-484b-b3fb-c2ae5dc6baf6"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="653a3851-0967-4e87-bb5b-35dd2de75621"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Machoire" mc="Lifeline" uid="1a7683cf-c70a-4e4e-a10d-cbecb00d5f22"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="cd121fb4-e2bf-426a-8e6d-b67f92672a8c"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">127</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="aa9dcd2d-ab10-4ec7-9d1d-f879985f12a7"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Machoire" mc="Lifeline" uid="1a7683cf-c70a-4e4e-a10d-cbecb00d5f22"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="653a3851-0967-4e87-bb5b-35dd2de75621"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">167</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="InteractionOperand" mc="InteractionOperand" uid="73fa1c95-a681-446f-985c-57ddc59a232e"/>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="4b65b8cb-918f-43b1-9deb-7e65b7dd3e25"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">LoopOp</ATT>
+            <ATT name="LineNumber">280</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="186738e8-af6d-4020-9c07-0ee0ce35233d"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[while(!travee_ouverte || !travee_ferme)]]></ATT>
+                  <ATT name="EndLineNumber">403</ATT>
+                  <ATT name="LineNumber">280</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Travee" mc="Lifeline" uid="c58bd290-8814-4bbf-9b8c-6eacc515e04c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="eb5e6a9c-0248-4018-aa07-cf188b11d926"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">342</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="tourner()" mc="Message" uid="8b373716-04e3-4125-950c-63b12efca0c8"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[tourner()]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="ed8e6681-9d65-443d-8ccc-9f80ab198d75"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ed8e6681-9d65-443d-8ccc-9f80ab198d75"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">342</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="95c9c0e4-3be2-4a7c-ab80-f68b292e9111"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Travee" mc="Lifeline" uid="c58bd290-8814-4bbf-9b8c-6eacc515e04c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="8fdb9817-fd11-4f80-bbb2-baed31d71010"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">369</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="74777d03-7175-4368-aaaf-4d0c0a158863"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="b1ce05c6-4103-4678-8496-3c9f1180b223"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Travee" mc="Lifeline" uid="c58bd290-8814-4bbf-9b8c-6eacc515e04c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="95c9c0e4-3be2-4a7c-ab80-f68b292e9111"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">342</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="8fdb9817-fd11-4f80-bbb2-baed31d71010"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Travee" mc="Lifeline" uid="c58bd290-8814-4bbf-9b8c-6eacc515e04c"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="b1ce05c6-4103-4678-8496-3c9f1180b223"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">382</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ccca365a-e704-4224-98c0-fedce59d85a8"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">443</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="error(machoire)" mc="Message" uid="854b1d50-8f4e-4062-8caf-fdf381a2dc21"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[error(machoire)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="7962e836-b22e-4db6-8969-9a38b2e4f062"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="7962e836-b22e-4db6-8969-9a38b2e4f062"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">448</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="3a0da274-bcff-44b3-9aa3-fa2fb9aa2f56"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="dca5e8b4-00fa-45c8-a900-d477abdaa028"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">468</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="3a0da274-bcff-44b3-9aa3-fa2fb9aa2f56"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">448</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="dca5e8b4-00fa-45c8-a900-d477abdaa028"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="3fd9fb04-3f97-4509-a412-490f8019d4eb"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">546</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="error(loquet)" mc="Message" uid="c3aa3356-8f63-41e5-af53-1a8f0edeb40b"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
+                  <ATT name="Name"><![CDATA[error(loquet)]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="feb72db0-d0e2-44d5-bf08-7656fb11ff33"/>
+                      <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="feb72db0-d0e2-44d5-bf08-7656fb11ff33"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">546</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="291efae5-401a-414f-a450-ea7f91c485d1"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="697e7b9e-3371-4976-8a06-1445e04c7bc7"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">566</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="291efae5-401a-414f-a450-ea7f91c485d1"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">546</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="697e7b9e-3371-4976-8a06-1445e04c7bc7"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="Loquet" mc="Lifeline" uid="ef768483-f0c4-4773-9f1d-d37a2a71e003"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Loquet]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="r" mc="Lifeline" uid="09806206-fba1-4957-b984-2b83a414e962"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="BindableInstance" uid="f261a479-d4a8-4286-8c93-8eb3070eea61"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Machoire" mc="Lifeline" uid="1a7683cf-c70a-4e4e-a10d-cbecb00d5f22"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Machoire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Cabestan" mc="Lifeline" uid="2b957267-79b8-4aad-ae3c-a3840c10d277"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Cabestan]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Travee" mc="Lifeline" uid="c58bd290-8814-4bbf-9b8c-6eacc515e04c"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Travee]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="83e476ae-e5e6-4d66-86f9-fa03e066c91f"/>
+          <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="BindableInstance" uid="f261a479-d4a8-4286-8c93-8eb3070eea61"/>
+                <PID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="f9cc1ac9-d7aa-430f-b33e-b45273e8fe69"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

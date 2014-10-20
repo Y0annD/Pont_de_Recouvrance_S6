@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Nouvelle_version" version="3">
+  <DEPS>
+    <ID name="Nouvelle_version" mc="PropertyContainer" uid="7bb54a50-69d8-4ee5-bdf4-b723e7e855a6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Nouvelle_version" mc="PropertyContainer" uid="7bb54a50-69d8-4ee5-bdf4-b723e7e855a6"/>
+    <PID name="Nouvelle_version" mc="AnalystProject" uid="48470eba-9e06-4ff9-b4cf-56486cf3ad33"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Nouvelle_version]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
