@@ -9,8 +9,11 @@
     <COMPID name="Interaction2" mc="Interaction" uid="c66c7cd3-5319-4af7-a6e5-1a0855c2fed4"/>
     <COMPID name="Lancer la simulation" mc="UseCase" uid="b60183df-1aad-47f1-9cba-bc1b03a4aec6"/>
     <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="ba451abb-415e-48da-b5fb-243a06b86fcf"/>
+    <COMPID name="Pont de Recouvrance Class diagram" mc="ClassDiagram" uid="4f973efd-e3d5-4fd8-9a74-63c03edc2a7c"/>
     <COMPID name="Se déplacer" mc="UseCase" uid="21e8bc7e-8d6f-4409-8059-d4d966250fb4"/>
     <COMPID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+    <COMPID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+    <COMPID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
     <COMPID name="nouvelle_version Use Case diagram" mc="UseCaseDiagram" uid="60a96753-0b03-4106-9411-55fe768bbf41"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="391d486a-3c98-4b13-9f82-6c6a0c352960"/>
   </DEPS>
@@ -39,10 +42,13 @@
         <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="ba451abb-415e-48da-b5fb-243a06b86fcf"/>
         <COMPID name="Se déplacer" mc="UseCase" uid="21e8bc7e-8d6f-4409-8059-d4d966250fb4"/>
         <COMPID name="Consulter l'histoire du pont" mc="UseCase" uid="e6bf4eea-5967-41c7-836a-1ef7ec67292c"/>
+        <COMPID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+        <COMPID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="391d486a-3c98-4b13-9f82-6c6a0c352960"/>
         <COMPID name="nouvelle_version Use Case diagram" mc="UseCaseDiagram" uid="60a96753-0b03-4106-9411-55fe768bbf41"/>
+        <COMPID name="Pont de Recouvrance Class diagram" mc="ClassDiagram" uid="4f973efd-e3d5-4fd8-9a74-63c03edc2a7c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
