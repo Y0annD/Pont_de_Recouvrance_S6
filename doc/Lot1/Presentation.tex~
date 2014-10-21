@@ -1,0 +1,21 @@
+documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{1pt}
+\fancyhead[C]{\textbf{page \thepage}} 
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{machin}
+
+\renewcommand{\footrulewidth}{1pt}
+\fancyfoot[C]{\textbf{page \thepage}} 
+\fancyfoot[L]{truc}
+\fancyfoot[R]{\leftmark}
+
+\begin{document}
+\section{Ma section}
+Blabla
+\end{document}

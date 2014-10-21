@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pont de Recouvrance" version="3">
+  <DEPS>
+    <ID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <COMPID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
+    <COMPID name="Consulter l'histoire du pont" mc="UseCase" uid="e6bf4eea-5967-41c7-836a-1ef7ec67292c"/>
+    <COMPID name="Interaction" mc="Interaction" uid="41100e40-2709-49c7-bc47-637393941a65"/>
+    <COMPID name="Interaction1" mc="Interaction" uid="b80de942-731e-4603-8fd8-de7ebf9aac2c"/>
+    <COMPID name="Interaction2" mc="Interaction" uid="c66c7cd3-5319-4af7-a6e5-1a0855c2fed4"/>
+    <COMPID name="Lancer la simulation" mc="UseCase" uid="b60183df-1aad-47f1-9cba-bc1b03a4aec6"/>
+    <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="ba451abb-415e-48da-b5fb-243a06b86fcf"/>
+    <COMPID name="Pont de Recouvrance Class diagram" mc="ClassDiagram" uid="4f973efd-e3d5-4fd8-9a74-63c03edc2a7c"/>
+    <COMPID name="Se déplacer" mc="UseCase" uid="21e8bc7e-8d6f-4409-8059-d4d966250fb4"/>
+    <COMPID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+    <COMPID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+    <COMPID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+    <COMPID name="nouvelle_version Use Case diagram" mc="UseCaseDiagram" uid="60a96753-0b03-4106-9411-55fe768bbf41"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="391d486a-3c98-4b13-9f82-6c6a0c352960"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <PID name="Nouvelle_version" mc="Project" uid="c60d8729-06c0-452f-8f29-4b9e85e4537c"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Pont de Recouvrance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
+        <COMPID name="Interaction1" mc="Interaction" uid="b80de942-731e-4603-8fd8-de7ebf9aac2c"/>
+        <COMPID name="Interaction" mc="Interaction" uid="41100e40-2709-49c7-bc47-637393941a65"/>
+        <COMPID name="Interaction2" mc="Interaction" uid="c66c7cd3-5319-4af7-a6e5-1a0855c2fed4"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
+        <COMPID name="Lancer la simulation" mc="UseCase" uid="b60183df-1aad-47f1-9cba-bc1b03a4aec6"/>
+        <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="ba451abb-415e-48da-b5fb-243a06b86fcf"/>
+        <COMPID name="Se déplacer" mc="UseCase" uid="21e8bc7e-8d6f-4409-8059-d4d966250fb4"/>
+        <COMPID name="Consulter l'histoire du pont" mc="UseCase" uid="e6bf4eea-5967-41c7-836a-1ef7ec67292c"/>
+        <COMPID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+        <COMPID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="391d486a-3c98-4b13-9f82-6c6a0c352960"/>
+        <COMPID name="nouvelle_version Use Case diagram" mc="UseCaseDiagram" uid="60a96753-0b03-4106-9411-55fe768bbf41"/>
+        <COMPID name="Pont de Recouvrance Class diagram" mc="ClassDiagram" uid="4f973efd-e3d5-4fd8-9a74-63c03edc2a7c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
