@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Activity diagram" version="3">
+  <DEPS>
+    <ID name="Activity Activity diagram" mc="ActivityDiagram" uid="8485f6e2-2206-4911-b7ab-846d951ad1f9"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Activity Activity diagram" mc="ActivityDiagram" uid="8485f6e2-2206-4911-b7ab-846d951ad1f9"/>
+    <PID name="Activity" mc="Activity" uid="02c6d526-8b9f-4218-baba-73422972210d"/>
+    <ATTRIBUTES>
+      <ATT name="IsVertical">false</ATT>
+      <ATT name="UiDataVersion">90</ATT>
+      <ATT name="UiData"><![CDATA[eJztW21TozoU/isM30ESAqVjdUftXrez9WX03p3ZT04gobIG4kKq8u83lLZb0dLaIn25zPiBCck5OTnPOTnnqXS+vIRMeaJxEvDoSAW6oSpfjjtX7i/qCSUgckhVRPpIj1QeD/SQE8oCrpMAD2Ic6pQEgsc69kTwFIhUp4yGNBLJdGQy8Tw8GY908xFVCfEvHt9NVRvqcec65o80FqkS4VBqZDjlQ9HFAst3PzAb0vFWoiFj6sFx52Cy4M3SW5Eyqr4yBJYZkmTzE93jMdXztUvs7wwnHiaUTJR9fRE31F9Sy6UUMV6p0BfRdXtyj6PH7IFQHw+ZKBh5kJtTZnhMGRaUyH0UzuwiG1KespEjteAMxUGO5dsUahAatobaAGhuC7uag2zStgAmwG+XHzjDifge8eeoj13KCrpvRRxEA/V4olaZPoxPpnMwml5qGGe0F53x8JEngZAumaNjCVFn9wEjMc0k9INEvEKJuRLcg0huCTMJ817+tBa8b+RmcDTIkDH2F3IOgWUeakD+fRj46NOBn6E+D7FPwuv4VC/l5hUXOY4LfVdzkUs0RFqO5gDH1/xWyzMoko/IrwCrY5VKpnN74GlVA8/rOAhxnGa21Z+I7WXxKEW9pGuDEjWgXATKCxxE80ROj2vGg61SFE5Q5/Ew5JHOMnv0bEMSf9mtlxu4Dux6kaADGk89AewPg9CpLSk2+FuIv1tpLWOBWEZmcs+f7wLvjaxTLpXhaHo6PmYJLTd5JOqBps88JhVIE9h7uEsEjSmvaG/sHVcUZYl4WBT1F2H5/bEgmtsrV/gyuvPCXnqj2oIH2MYhQMaKFQ8wdr/kuXrEv4c0P1wFeMA3DQNpwIWj8PY1DKmM9paPfdSmLdshFdXnPNqeages3nzOQHOjxQ5Yuu2sptqR0G8AuVql8xFgrtYmTkYiueCeSvfFM8RItq1vo8ENoLS+HhE0GbMMoDksKqyD3qkPtqUMWnJr61ZBszhfrX8uXCinnKQbiNGa++YmUEsD1ZUgKO2X3xbfBU3v1Cf62FGL+t1loL5Ckz6aNX4l0d7NSeh/pE8ruJiKRhT74iUioL6mvSmjSsHfC/Eg53Gajv2TO/Y5SaPKTLGNBICJ1iEA4L4RABZpQeASVzPalq0hw6Ca67tIQ5bjY5mmCWxVwe/l2sD2MABw9xkAWDMDAOu5unYWkRVRAHDPKABY48/ETc5sOICNcQBwhzkAWDMH0ETqbpMAcP9IAFgfCdBUUg0L8L9hAeA2sgDWWv8GYO4bC+BDhIhju1pbZgmZKXysuRgZmm1YbctsQx+7XmWZAm4PC2DuPgtg1swCmPXcXTuLyIpYAHPPWACzPhbAbHJmwwJsjAUwd5gFMGtmAZpI3W0WwNw/FsCsjwVoKqmGBdhvFmChon4QPSTT8nfh9NNBN8bPEhx9nEr9rwO3nGaY5CKSC0hkNkpHxfErifXcuB9btakPb4Mi+Cdx2T3X+yc/v97cnZ6cfT+/ufrvsrtKs1PyDcl8KbPe+guc2W9SS6mZBgafAIN/r66r9v/cV38At6OIXQ==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Activity Activity diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

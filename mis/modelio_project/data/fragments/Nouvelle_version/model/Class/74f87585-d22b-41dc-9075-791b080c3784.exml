@@ -1,12 +1,13 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Systeme" version="3">
   <DEPS>
-    <ID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
-    <EXTID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+    <ID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+    <EXTID name="Engrenage" mc="Class" uid="77a09cce-310d-49f3-9ba7-3da83bc9d9a1"/>
+    <EXTID name="Position" mc="Class" uid="781baf47-ac1d-4067-9e55-a33c87d0860a"/>
     <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+    <ID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
     <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -22,8 +23,8 @@
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="isOpen" mc="Operation" uid="96933189-0aa0-4f71-9158-c63f1e3291f2"/>
-          <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+          <ID name="verrouiller" mc="Operation" uid="0bfb1ca5-7b22-4a67-946b-b9661d0eec99"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -31,14 +32,14 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[isOpen]]></ATT>
+            <ATT name="Name"><![CDATA[verrouiller]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="isClose" mc="Operation" uid="314be7f5-f28c-403e-96ab-ba9b436dc1cd"/>
-          <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+          <ID name="deverrouiller" mc="Operation" uid="49d0cdfe-988a-4e8c-b2fb-b21a9fe123a8"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -46,7 +47,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[isClose]]></ATT>
+            <ATT name="Name"><![CDATA[deverrouiller]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
@@ -54,8 +55,8 @@
       </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="ouvert" mc="Attribute" uid="ea743b3d-5623-4a09-bf43-dd0c18f2fb87"/>
-          <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+          <ID name="ouvert" mc="Attribute" uid="42440d37-5c72-440b-bfc5-c648eb58ba6a"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -66,7 +67,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Protected</ATT>
+            <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[ouvert]]></ATT>
@@ -79,8 +80,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ferme" mc="Attribute" uid="7f2c9813-62ab-4417-82ac-65a7af6c6624"/>
-          <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+          <ID name="ferme" mc="Attribute" uid="cdfc540b-3fe3-4f49-b343-72156d342389"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -91,7 +92,7 @@
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Protected</ATT>
+            <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="Name"><![CDATA[ferme]]></ATT>
@@ -106,31 +107,31 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="simulation" mc="AssociationEnd" uid="4b039434-5cc8-4888-89a9-e81ce712bd67"/>
-          <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+          <ID name="engrenage" mc="AssociationEnd" uid="d366611e-be24-4513-9318-4d9cec247a4d"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[simulation]]></ATT>
+            <ATT name="Name"><![CDATA[engrenage]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+              <ID name="Engrenage" mc="Class" uid="77a09cce-310d-49f3-9ba7-3da83bc9d9a1"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="AssociationEnd" uid="6331a786-021e-4d5b-ae80-6c525922fdd9"/>
-                <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+                <ID name="" mc="AssociationEnd" uid="9f9f7958-fdf4-4138-ad08-005db9e6e691"/>
+                <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -138,8 +139,8 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -148,12 +149,12 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="simulation" mc="AssociationEnd" uid="4b039434-5cc8-4888-89a9-e81ce712bd67"/>
+                    <COMPID name="engrenage" mc="AssociationEnd" uid="d366611e-be24-4513-9318-4d9cec247a4d"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Association" uid="ae577ce0-a912-418f-9726-a97eb232506a"/>
-                      <PID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+                      <ID name="" mc="Association" uid="444639b0-b9c6-430c-9133-ec1bccd0b52d"/>
+                      <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -165,7 +166,71 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Association" uid="ae577ce0-a912-418f-9726-a97eb232506a"/>
+              <COMPID name="" mc="Association" uid="444639b0-b9c6-430c-9133-ec1bccd0b52d"/>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="position" mc="AssociationEnd" uid="ed7afa24-d76c-44a0-a7ba-589124a472c3"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[position]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Position" mc="Class" uid="781baf47-ac1d-4067-9e55-a33c87d0860a"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="211c3bcf-4efb-4408-a405-fd88fd3b9928"/>
+                <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="position" mc="AssociationEnd" uid="ed7afa24-d76c-44a0-a7ba-589124a472c3"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="635c05be-0a51-400f-ac77-0b47c34c02c0"/>
+                      <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <COMPID name="" mc="Association" uid="635c05be-0a51-400f-ac77-0b47c34c02c0"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

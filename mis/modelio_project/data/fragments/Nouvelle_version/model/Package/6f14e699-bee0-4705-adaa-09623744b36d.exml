@@ -2,20 +2,42 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Pont de Recouvrance" version="3">
   <DEPS>
     <ID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <COMPID name="Activity" mc="Activity" uid="02c6d526-8b9f-4218-baba-73422972210d"/>
     <COMPID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
+    <COMPID name="Cabestan" mc="Class" uid="a67645d2-a044-4120-9205-9a18179aaca9"/>
+    <COMPID name="Camera" mc="Class" uid="496e20be-c199-453f-8b84-a964e76550e7"/>
     <COMPID name="Consulter l'histoire du pont" mc="UseCase" uid="e6bf4eea-5967-41c7-836a-1ef7ec67292c"/>
+    <COMPID name="Engrenage" mc="StateMachine" uid="82dc84bb-7b85-4547-ab4e-cb39cb100d2e"/>
+    <COMPID name="Engrenage" mc="Class" uid="77a09cce-310d-49f3-9ba7-3da83bc9d9a1"/>
     <COMPID name="Interaction" mc="Interaction" uid="41100e40-2709-49c7-bc47-637393941a65"/>
     <COMPID name="Interaction1" mc="Interaction" uid="b80de942-731e-4603-8fd8-de7ebf9aac2c"/>
     <COMPID name="Interaction2" mc="Interaction" uid="c66c7cd3-5319-4af7-a6e5-1a0855c2fed4"/>
     <COMPID name="Lancer la simulation" mc="UseCase" uid="b60183df-1aad-47f1-9cba-bc1b03a4aec6"/>
+    <COMPID name="Loquet" mc="Class" uid="9b7e927a-926c-49df-bb53-dcfb5951bb9f"/>
+    <COMPID name="Machoire" mc="Class" uid="d3d07b03-dfef-4038-b629-14019c7f8f77"/>
     <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="ba451abb-415e-48da-b5fb-243a06b86fcf"/>
-    <COMPID name="Pont de Recouvrance Class diagram" mc="ClassDiagram" uid="4f973efd-e3d5-4fd8-9a74-63c03edc2a7c"/>
+    <COMPID name="Panneau" mc="Class" uid="ea1e95b6-a4d6-4a9e-8038-5d8120971cd1"/>
+    <COMPID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+    <COMPID name="Position" mc="Class" uid="781baf47-ac1d-4067-9e55-a33c87d0860a"/>
+    <COMPID name="Roue" mc="Class" uid="5b8fe772-27dc-47bd-9fe1-6689931eab6b"/>
     <COMPID name="Se déplacer" mc="UseCase" uid="21e8bc7e-8d6f-4409-8059-d4d966250fb4"/>
     <COMPID name="Sequence_rotation" mc="Interaction" uid="8e54f769-5f84-4e0e-8c78-bf9c21d7c8b4"/>
-    <COMPID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
-    <COMPID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
+    <COMPID name="Simulation" mc="Class" uid="882d30d7-b47d-46ef-af03-61be3f059a84"/>
+    <COMPID name="State Machine" mc="StateMachine" uid="7410e6fa-b13e-4e62-99d9-31b8435d2078"/>
+    <COMPID name="Systeme" mc="StateMachine" uid="a157834c-2e76-4480-93c2-7a6c201584b6"/>
+    <COMPID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+    <COMPID name="Travee" mc="Class" uid="76c17d55-768d-4785-9c56-6cf155d810d0"/>
+    <COMPID name="afficher" mc="Signal" uid="79211cc7-c905-4812-8c16-b1830f0cf497"/>
+    <COMPID name="deverrouiller" mc="Signal" uid="6bec97fa-259f-4df7-9ecb-29621e3dff7a"/>
+    <COMPID name="fermer" mc="Signal" uid="6741a9fb-5324-401c-abab-a41732595a62"/>
     <COMPID name="nouvelle_version Use Case diagram" mc="UseCaseDiagram" uid="60a96753-0b03-4106-9411-55fe768bbf41"/>
+    <COMPID name="ouvrir" mc="Signal" uid="2e1b33c1-8af3-499d-bc72-18a5a48ffabc"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="391d486a-3c98-4b13-9f82-6c6a0c352960"/>
+    <COMPID name="pause" mc="Signal" uid="9500aaa0-169d-425a-b21f-d679e5bbfeb3"/>
+    <COMPID name="stop" mc="Signal" uid="66eb4cff-a434-4296-9885-37c279274806"/>
+    <COMPID name="tourner" mc="Signal" uid="3e3c60f9-fc6f-4f9d-8ff1-73001a369ab9"/>
+    <COMPID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
+    <COMPID name="verrouiller" mc="Signal" uid="0dc14b07-2ceb-4396-9ed1-a8c51aeb8544"/>
   </DEPS>
   <OBJECT>
     <ID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
@@ -35,6 +57,12 @@
         <COMPID name="Interaction1" mc="Interaction" uid="b80de942-731e-4603-8fd8-de7ebf9aac2c"/>
         <COMPID name="Interaction" mc="Interaction" uid="41100e40-2709-49c7-bc47-637393941a65"/>
         <COMPID name="Interaction2" mc="Interaction" uid="c66c7cd3-5319-4af7-a6e5-1a0855c2fed4"/>
+        <COMPID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
+        <COMPID name="Systeme" mc="StateMachine" uid="a157834c-2e76-4480-93c2-7a6c201584b6"/>
+        <COMPID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+        <COMPID name="Engrenage" mc="StateMachine" uid="82dc84bb-7b85-4547-ab4e-cb39cb100d2e"/>
+        <COMPID name="State Machine" mc="StateMachine" uid="7410e6fa-b13e-4e62-99d9-31b8435d2078"/>
+        <COMPID name="Activity" mc="Activity" uid="02c6d526-8b9f-4218-baba-73422972210d"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
@@ -42,13 +70,29 @@
         <COMPID name="Mettre en mouvement le pont" mc="UseCase" uid="ba451abb-415e-48da-b5fb-243a06b86fcf"/>
         <COMPID name="Se déplacer" mc="UseCase" uid="21e8bc7e-8d6f-4409-8059-d4d966250fb4"/>
         <COMPID name="Consulter l'histoire du pont" mc="UseCase" uid="e6bf4eea-5967-41c7-836a-1ef7ec67292c"/>
-        <COMPID name="Systeme" mc="Class" uid="86c2d40c-5a95-4caa-b4eb-74abacdc8f65"/>
-        <COMPID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+        <COMPID name="Simulation" mc="Class" uid="882d30d7-b47d-46ef-af03-61be3f059a84"/>
+        <COMPID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+        <COMPID name="Roue" mc="Class" uid="5b8fe772-27dc-47bd-9fe1-6689931eab6b"/>
+        <COMPID name="Loquet" mc="Class" uid="9b7e927a-926c-49df-bb53-dcfb5951bb9f"/>
+        <COMPID name="Machoire" mc="Class" uid="d3d07b03-dfef-4038-b629-14019c7f8f77"/>
+        <COMPID name="Travee" mc="Class" uid="76c17d55-768d-4785-9c56-6cf155d810d0"/>
+        <COMPID name="Panneau" mc="Class" uid="ea1e95b6-a4d6-4a9e-8038-5d8120971cd1"/>
+        <COMPID name="Cabestan" mc="Class" uid="a67645d2-a044-4120-9205-9a18179aaca9"/>
+        <COMPID name="Engrenage" mc="Class" uid="77a09cce-310d-49f3-9ba7-3da83bc9d9a1"/>
+        <COMPID name="ouvrir" mc="Signal" uid="2e1b33c1-8af3-499d-bc72-18a5a48ffabc"/>
+        <COMPID name="tourner" mc="Signal" uid="3e3c60f9-fc6f-4f9d-8ff1-73001a369ab9"/>
+        <COMPID name="fermer" mc="Signal" uid="6741a9fb-5324-401c-abab-a41732595a62"/>
+        <COMPID name="verrouiller" mc="Signal" uid="0dc14b07-2ceb-4396-9ed1-a8c51aeb8544"/>
+        <COMPID name="deverrouiller" mc="Signal" uid="6bec97fa-259f-4df7-9ecb-29621e3dff7a"/>
+        <COMPID name="afficher" mc="Signal" uid="79211cc7-c905-4812-8c16-b1830f0cf497"/>
+        <COMPID name="stop" mc="Signal" uid="66eb4cff-a434-4296-9885-37c279274806"/>
+        <COMPID name="pause" mc="Signal" uid="9500aaa0-169d-425a-b21f-d679e5bbfeb3"/>
+        <COMPID name="Camera" mc="Class" uid="496e20be-c199-453f-8b84-a964e76550e7"/>
+        <COMPID name="Position" mc="Class" uid="781baf47-ac1d-4067-9e55-a33c87d0860a"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="391d486a-3c98-4b13-9f82-6c6a0c352960"/>
         <COMPID name="nouvelle_version Use Case diagram" mc="UseCaseDiagram" uid="60a96753-0b03-4106-9411-55fe768bbf41"/>
-        <COMPID name="Pont de Recouvrance Class diagram" mc="ClassDiagram" uid="4f973efd-e3d5-4fd8-9a74-63c03edc2a7c"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="verrouiller" version="3">
+  <DEPS>
+    <ID name="verrouiller" mc="Signal" uid="0dc14b07-2ceb-4396-9ed1-a8c51aeb8544"/>
+    <EXTID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="verrouiller" mc="Signal" uid="0dc14b07-2ceb-4396-9ed1-a8c51aeb8544"/>
+    <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[verrouiller]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="OBase">
+        <REFOBJ>
+          <ID name="verrouiller" mc="Operation" uid="0bfb1ca5-7b22-4a67-946b-b9661d0eec99"/>
+          <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+        </REFOBJ>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

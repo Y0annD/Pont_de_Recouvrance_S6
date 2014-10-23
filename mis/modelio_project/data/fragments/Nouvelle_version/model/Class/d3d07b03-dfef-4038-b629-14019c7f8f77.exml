@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Machoire" version="3">
+  <DEPS>
+    <ID name="Machoire" mc="Class" uid="d3d07b03-dfef-4038-b629-14019c7f8f77"/>
+    <EXTID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Machoire" mc="Class" uid="d3d07b03-dfef-4038-b629-14019c7f8f77"/>
+    <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Machoire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Generalization" uid="a07b756f-8fed-4372-8a54-2f630e3e96a7"/>
+          <PID name="Machoire" mc="Class" uid="d3d07b03-dfef-4038-b629-14019c7f8f77"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

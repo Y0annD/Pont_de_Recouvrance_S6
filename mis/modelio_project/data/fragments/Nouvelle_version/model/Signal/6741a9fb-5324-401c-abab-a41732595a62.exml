@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Simulation" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fermer" version="3">
   <DEPS>
-    <ID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+    <ID name="fermer" mc="Signal" uid="6741a9fb-5324-401c-abab-a41732595a62"/>
   </DEPS>
   <OBJECT>
-    <ID name="Simulation" mc="Class" uid="6e9b51e3-8e9e-40e4-b485-564ec7b59bc3"/>
+    <ID name="fermer" mc="Signal" uid="6741a9fb-5324-401c-abab-a41732595a62"/>
     <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Simulation]]></ATT>
+      <ATT name="Name"><![CDATA[fermer]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Panneau" version="3">
+  <DEPS>
+    <ID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+    <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="35045e2c-0763-46ec-883b-5ba54560206c"/>
+    <EXTID name="afficher" mc="Signal" uid="79211cc7-c905-4812-8c16-b1830f0cf497"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+    <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Panneau]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Region" uid="f670e284-c977-40b1-b459-0cb8b2c89a5b"/>
+          <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Inactif" mc="State" uid="76066489-5a3a-4f14-83c4-c83bafd8b693"/>
+                <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Inactif]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="714e88c5-612d-4e0b-93c2-40ad70451b0b"/>
+                      <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Trigger">
+                          <REFOBJ>
+                            <ID name="afficher" mc="Event" uid="5c2e7b23-0a7e-44e4-a104-ff0f926aecaa"/>
+                            <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                          </REFOBJ>
+                        </LINK>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Actif" mc="State" uid="90a01977-7118-4ea6-9965-7eda60a0a0d6"/>
+                            <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Initial State" mc="InitialPseudoState" uid="0c02b560-99a1-4bae-bd96-dcc2afdf2ca9"/>
+                <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="1a9890c2-88cb-44a9-af30-5f6e4b9b4401"/>
+                      <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Inactif" mc="State" uid="76066489-5a3a-4f14-83c4-c83bafd8b693"/>
+                            <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Actif" mc="State" uid="90a01977-7118-4ea6-9965-7eda60a0a0d6"/>
+                <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Actif]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="0ddc76ba-db20-4ba2-bdd3-741a0efb4448"/>
+                      <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"><![CDATA[desactiver]]></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Inactif" mc="State" uid="76066489-5a3a-4f14-83c4-c83bafd8b693"/>
+                            <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="EComponent">
+        <OBJECT>
+          <ID name="afficher" mc="Event" uid="5c2e7b23-0a7e-44e4-a104-ff0f926aecaa"/>
+          <PID name="Panneau" mc="StateMachine" uid="0a091ef3-d235-4618-9489-23fac86a6dcc"/>
+          <ATTRIBUTES>
+            <ATT name="Expression"></ATT>
+            <ATT name="Kind">SignalEvent</ATT>
+            <ATT name="Name"><![CDATA[afficher]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <ID name="afficher" mc="Signal" uid="79211cc7-c905-4812-8c16-b1830f0cf497"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="35045e2c-0763-46ec-883b-5ba54560206c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
