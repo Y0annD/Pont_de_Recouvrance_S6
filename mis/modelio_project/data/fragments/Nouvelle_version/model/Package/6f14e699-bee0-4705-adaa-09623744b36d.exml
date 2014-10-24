@@ -3,6 +3,7 @@
   <DEPS>
     <ID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
     <COMPID name="Activity" mc="Activity" uid="02c6d526-8b9f-4218-baba-73422972210d"/>
+    <COMPID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
     <COMPID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
     <COMPID name="Cabestan" mc="Class" uid="a67645d2-a044-4120-9205-9a18179aaca9"/>
     <COMPID name="Camera" mc="Class" uid="496e20be-c199-453f-8b84-a964e76550e7"/>
@@ -63,6 +64,7 @@
         <COMPID name="Engrenage" mc="StateMachine" uid="82dc84bb-7b85-4547-ab4e-cb39cb100d2e"/>
         <COMPID name="State Machine" mc="StateMachine" uid="7410e6fa-b13e-4e62-99d9-31b8435d2078"/>
         <COMPID name="Activity" mc="Activity" uid="02c6d526-8b9f-4218-baba-73422972210d"/>
+        <COMPID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Actor" uid="b927f197-1693-4f97-9b9f-546540388c61"/>
