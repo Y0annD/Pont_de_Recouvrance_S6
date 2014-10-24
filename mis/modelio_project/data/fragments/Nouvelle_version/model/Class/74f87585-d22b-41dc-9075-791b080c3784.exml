@@ -55,7 +55,7 @@
       </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="ouvert" mc="Attribute" uid="42440d37-5c72-440b-bfc5-c648eb58ba6a"/>
+          <ID name="verrouille" mc="Attribute" uid="42440d37-5c72-440b-bfc5-c648eb58ba6a"/>
           <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
@@ -70,7 +70,7 @@
             <ATT name="Visibility">Protected</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[ouvert]]></ATT>
+            <ATT name="Name"><![CDATA[verrouille]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -80,7 +80,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ferme" mc="Attribute" uid="cdfc540b-3fe3-4f49-b343-72156d342389"/>
+          <ID name="deverrouille" mc="Attribute" uid="cdfc540b-3fe3-4f49-b343-72156d342389"/>
           <PID name="Systeme" mc="Class" uid="74f87585-d22b-41dc-9075-791b080c3784"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
@@ -95,7 +95,7 @@
             <ATT name="Visibility">Protected</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[ferme]]></ATT>
+            <ATT name="Name"><![CDATA[deverrouille]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

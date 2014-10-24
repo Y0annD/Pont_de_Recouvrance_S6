@@ -575,9 +575,12 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
+                  </LINK>
                   <COMP relation="Outgoing">
                     <OBJECT>
-                      <ID name="ObjectFlow" mc="ObjectFlow" uid="f11104f6-7654-4465-b47a-bb4d0ecaf19f"/>
+                      <ID name="ObjectFlow" mc="ObjectFlow" uid="51b7602b-ff7c-4eae-86dd-bef3fd0f5f9a"/>
                       <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                       <ATTRIBUTES>
                         <ATT name="TransformationBehavior"></ATT>
