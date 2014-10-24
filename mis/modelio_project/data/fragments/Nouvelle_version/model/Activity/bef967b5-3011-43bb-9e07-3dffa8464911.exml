@@ -1,24 +1,25 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity1" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activité mouvement" version="3">
   <DEPS>
-    <ID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+    <ID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
     <COMPID name="Activité_Simulation" mc="ActivityDiagram" uid="7f819867-1413-4e3e-972d-86b17ffe035f"/>
+    <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+    <ID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
     <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
     <ATTRIBUTES>
       <ATT name="IsSingleExecution">false</ATT>
       <ATT name="IsReadOnly">false</ATT>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Activity1]]></ATT>
+      <ATT name="Name"><![CDATA[Activité mouvement]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedNode">
         <OBJECT>
           <ID name="Initial Node" mc="InitialNode" uid="a6e1c61d-80aa-434f-88b3-c4948b5aebd9"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[Initial Node]]></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -27,7 +28,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="cb72e360-da44-4a87-96b9-28d22570cee8"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -38,7 +39,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="interragir" mc="OpaqueAction" uid="1503cd68-645d-443b-92f6-ecbf2e109e13"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -48,7 +49,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="Decision-Merge" mc="DecisionMergeNode" uid="2ef4ed55-c700-490d-b2ec-1176c4afaaa6"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="DecisionKind">ExclusiveDecision</ATT>
             <ATT name="DecisionInputBehavior"></ATT>
@@ -59,7 +60,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="action_loquet" mc="ControlFlow" uid="13283311-6426-4170-bc08-b70edd89265a"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[action_loquet]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -69,15 +70,15 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Decision-Merge1" mc="DecisionMergeNode" uid="5b4fd71c-13bb-4b22-be92-9a4d9d2b4f59"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <ID name="verifier_etat_loquet" mc="OpaqueAction" uid="dbd2f2fa-c108-4d37-a890-b5a9e0b9fb7d"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="6695ba73-3f95-4f17-9c27-a7cc65306f03"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[action_machoire]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -87,15 +88,15 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Decision-Merge2" mc="DecisionMergeNode" uid="b8a7e6c0-686d-4e32-aa78-9d8c42811fce"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <ID name="verifier_etat_machoire" mc="OpaqueAction" uid="f47cb892-37c3-4345-ba7e-79f968cd9436"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="3b97c298-2bca-42d5-b948-91853a66810f"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[action_cabestan && machoire_deverrouille && loquet_deverrouille]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -106,14 +107,14 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="action_pont" mc="OpaqueAction" uid="debd018b-a6e4-4ac8-92b6-4bab1d620a70"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="6fdd267b-16dc-4e34-a94c-37eec7383bc9"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[appui_Echap]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -124,14 +125,14 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Activity Final Node" mc="ActivityFinalNode" uid="9115ef5f-1c4f-469d-bad5-fd292873295d"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="eee9c555-255d-4b47-92cd-63a03587a734"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[else]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -142,7 +143,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -152,7 +153,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="interragir" mc="OpaqueAction" uid="1503cd68-645d-443b-92f6-ecbf2e109e13"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
@@ -164,7 +165,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="2f7ecb59-267d-4791-a43a-9c9a96b39625"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -175,7 +176,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge" mc="DecisionMergeNode" uid="2ef4ed55-c700-490d-b2ec-1176c4afaaa6"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -185,7 +186,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="verrouiller_loquet" mc="OpaqueAction" uid="8082f4e1-f660-48c3-ae78-ab278ce6fdc5"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
@@ -197,7 +198,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="0e5d8453-0550-4ada-a8f4-6dd01c2fd8ed"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -208,7 +209,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -218,7 +219,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="verrouiller_machoire" mc="OpaqueAction" uid="7dcfcdf9-ee1c-47dd-a248-8144e460911e"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
@@ -230,7 +231,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="b30ca853-2cce-4db8-a83a-80ad1498ce19"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -241,7 +242,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -251,7 +252,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="action_pont" mc="OpaqueAction" uid="debd018b-a6e4-4ac8-92b6-4bab1d620a70"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
@@ -263,7 +264,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="eaffcd7e-42ba-42af-af03-dac0150aed42"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -274,7 +275,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -284,7 +285,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="Decision-Merge1" mc="DecisionMergeNode" uid="5b4fd71c-13bb-4b22-be92-9a4d9d2b4f59"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="DecisionKind">ExclusiveDecision</ATT>
             <ATT name="DecisionInputBehavior"></ATT>
@@ -294,28 +295,28 @@
           <DEPENDENCIES>
             <COMP relation="Outgoing">
               <OBJECT>
-                <ID name="loquet_deverrouille" mc="ControlFlow" uid="ddfeeb0f-bcec-4ffc-b13b-48a151e6f180"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <ID name="" mc="ControlFlow" uid="ddfeeb0f-bcec-4ffc-b13b-48a151e6f180"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[loquet_deverrouille]]></ATT>
+                  <ATT name="Guard"><![CDATA[verrouille == true]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[loquet_deverrouille]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="verrouiller_loquet" mc="OpaqueAction" uid="8082f4e1-f660-48c3-ae78-ab278ce6fdc5"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="loquet_verrouille" mc="ControlFlow" uid="729a15be-de6a-47b3-85fb-20c2dd7d229b"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[loquet_verrouille]]></ATT>
+                  <ATT name="Guard"><![CDATA[verrouille == false]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
                   <ATT name="Name"><![CDATA[loquet_verrouille]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -324,7 +325,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="deverrouiller_loquet" mc="OpaqueAction" uid="22f2ec70-1779-4a80-8e6b-d21b0dbdfe2a"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -334,7 +335,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="deverrouiller_loquet" mc="OpaqueAction" uid="22f2ec70-1779-4a80-8e6b-d21b0dbdfe2a"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
@@ -346,7 +347,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="86ba345d-288f-476e-8910-3a1bf2ad81cb"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -357,7 +358,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -367,7 +368,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="Decision-Merge2" mc="DecisionMergeNode" uid="b8a7e6c0-686d-4e32-aa78-9d8c42811fce"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="DecisionKind">ExclusiveDecision</ATT>
             <ATT name="DecisionInputBehavior"></ATT>
@@ -378,9 +379,9 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="e123bbda-9947-4751-99e6-7be9920e8ca7"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[machoire_deverrouille]]></ATT>
+                  <ATT name="Guard"><![CDATA[verrouillee == false]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
                   <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -389,16 +390,16 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="verrouiller_machoire" mc="OpaqueAction" uid="7dcfcdf9-ee1c-47dd-a248-8144e460911e"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="70c39b57-5551-4bbd-bb32-e9f73c60356e"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[machoire_verrouille]]></ATT>
+                  <ATT name="Guard"><![CDATA[verrouillee == true]]></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
                   <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -407,7 +408,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="deverrouiller_machoire" mc="OpaqueAction" uid="6c56195c-b240-4521-a740-0093e9447c26"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -417,7 +418,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="deverrouiller_machoire" mc="OpaqueAction" uid="6c56195c-b240-4521-a740-0093e9447c26"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Body"></ATT>
             <ATT name="IsMultipleInstance">false</ATT>
@@ -429,7 +430,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="1b51840c-dd29-48d4-ba02-3cb71d783893"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -440,7 +441,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -450,7 +451,7 @@
         </OBJECT>
         <OBJECT>
           <ID name="Decision-Merge3" mc="DecisionMergeNode" uid="273ae0c5-b195-4806-81fe-cd6f9cb8d111"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="DecisionKind">ExclusiveDecision</ATT>
             <ATT name="DecisionInputBehavior"></ATT>
@@ -461,7 +462,7 @@
             <COMP relation="Outgoing">
               <OBJECT>
                 <ID name="ControlFlow" mc="ControlFlow" uid="43c2214c-5b5d-4163-826c-5304e6361901"/>
-                <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -472,7 +473,7 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="interragir" mc="OpaqueAction" uid="1503cd68-645d-443b-92f6-ecbf2e109e13"/>
-                      <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -482,18 +483,133 @@
         </OBJECT>
         <OBJECT>
           <ID name="Activity Final Node" mc="ActivityFinalNode" uid="9115ef5f-1c4f-469d-bad5-fd292873295d"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[Activity Final Node]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="verifier_etat_loquet" mc="OpaqueAction" uid="dbd2f2fa-c108-4d37-a890-b5a9e0b9fb7d"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[verifier_etat_loquet]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Output">
+              <OBJECT>
+                <ID name="verrouille" mc="OutputPin" uid="00ee6ee9-41ea-42cd-baa4-14ada42a1a8c"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <ATTRIBUTES>
+                  <ATT name="IsControl">false</ATT>
+                  <ATT name="IsExpansion">false</ATT>
+                  <ATT name="IsControlType">false</ATT>
+                  <ATT name="Ordering">FIFO</ATT>
+                  <ATT name="SelectionBehavior"></ATT>
+                  <ATT name="UpperBound"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[verrouille]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Type">
+                    <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
+                  </LINK>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ObjectFlow" mc="ObjectFlow" uid="8a829923-45e7-4410-9f5f-10bcc23b20a1"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <ATTRIBUTES>
+                        <ATT name="TransformationBehavior"></ATT>
+                        <ATT name="SelectionBehavior"></ATT>
+                        <ATT name="IsMultiCast">false</ATT>
+                        <ATT name="IsMultiReceive">false</ATT>
+                        <ATT name="Effect">ReadFlow</ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ObjectFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Decision-Merge1" mc="DecisionMergeNode" uid="5b4fd71c-13bb-4b22-be92-9a4d9d2b4f59"/>
+                            <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="verifier_etat_machoire" mc="OpaqueAction" uid="f47cb892-37c3-4345-ba7e-79f968cd9436"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[verifier_etat_machoire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Output">
+              <OBJECT>
+                <ID name="verrouillee" mc="OutputPin" uid="8261623b-f684-430f-a17c-edf610988382"/>
+                <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                <ATTRIBUTES>
+                  <ATT name="IsControl">false</ATT>
+                  <ATT name="IsExpansion">false</ATT>
+                  <ATT name="IsControlType">false</ATT>
+                  <ATT name="Ordering">FIFO</ATT>
+                  <ATT name="SelectionBehavior"></ATT>
+                  <ATT name="UpperBound"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[verrouillee]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Outgoing">
+                    <OBJECT>
+                      <ID name="ObjectFlow" mc="ObjectFlow" uid="f11104f6-7654-4465-b47a-bb4d0ecaf19f"/>
+                      <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                      <ATTRIBUTES>
+                        <ATT name="TransformationBehavior"></ATT>
+                        <ATT name="SelectionBehavior"></ATT>
+                        <ATT name="IsMultiCast">false</ATT>
+                        <ATT name="IsMultiReceive">false</ATT>
+                        <ATT name="Effect">ReadFlow</ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="Weight"><![CDATA[1]]></ATT>
+                        <ATT name="Name"><![CDATA[ObjectFlow]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Decision-Merge2" mc="DecisionMergeNode" uid="b8a7e6c0-686d-4e32-aa78-9d8c42811fce"/>
+                            <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
           <ID name="locals" mc="Collaboration" uid="77ecba55-f050-417d-aedf-d62b2ea9b6b1"/>
-          <PID name="Activity1" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
+          <PID name="Activité mouvement" mc="Activity" uid="bef967b5-3011-43bb-9e07-3dffa8464911"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>

@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activité histoire" version="3">
+  <DEPS>
+    <ID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+    <COMPID name="Activité histoire" mc="ActivityDiagram" uid="c4b1e942-2329-44a4-b35c-bfda8a53f347"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+    <PID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <ATTRIBUTES>
+      <ATT name="IsSingleExecution">false</ATT>
+      <ATT name="IsReadOnly">false</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Activité histoire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedNode">
+        <OBJECT>
+          <ID name="Afficher histoire" mc="OpaqueAction" uid="e3863b9f-6c90-4d57-87a8-3a3ee3f87f63"/>
+          <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+          <ATTRIBUTES>
+            <ATT name="Body"></ATT>
+            <ATT name="IsMultipleInstance">false</ATT>
+            <ATT name="IsCompensation">false</ATT>
+            <ATT name="Name"><![CDATA[Afficher histoire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="ControlFlow" uid="bd40cabd-6c5e-451b-9d02-3ddbe3e9ad51"/>
+                <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Activity Final Node" mc="ActivityFinalNode" uid="b56ffa7c-9447-4527-8168-17ecc04a585d"/>
+                      <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Initial Node" mc="InitialNode" uid="e1047e69-0258-4c27-b41d-717c3b091fc1"/>
+          <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Initial Node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Outgoing">
+              <OBJECT>
+                <ID name="ControlFlow" mc="ControlFlow" uid="b03c0536-9778-48f9-8421-8615f23973a7"/>
+                <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"></ATT>
+                  <ATT name="Weight"><![CDATA[1]]></ATT>
+                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="Afficher histoire" mc="OpaqueAction" uid="e3863b9f-6c90-4d57-87a8-3a3ee3f87f63"/>
+                      <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Activity Final Node" mc="ActivityFinalNode" uid="b56ffa7c-9447-4527-8168-17ecc04a585d"/>
+          <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[Activity Final Node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="bbb8b4d4-4368-4666-9732-55437525e645"/>
+          <PID name="Activité histoire" mc="Activity" uid="de16cf22-870d-4603-aa83-f7cb0c6106c4"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Activité histoire" mc="ActivityDiagram" uid="c4b1e942-2329-44a4-b35c-bfda8a53f347"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

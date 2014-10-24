@@ -1,0 +1,247 @@
+\section{Cas d'utilisation}
+L'application propose différents cas d'utilisation décrits dans la
+partie ci-dessous.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=13cm]{../images/use_case.png}
+\end{center}
+\label{fig:figure}
+\caption{Cas d'utilisations}
+\end{figure}
+\newpage
+\subsection{Lancer la simulation}
+
+Ce cas d'utilisation est le premier rencontré par l'utilisateur. 
+Il comprend la marche à suivre pour accéder à la simulation.
+\subsubsection{Scenarios}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{9cm}|}
+\hline
+Sommaire & Scénario nominal «Lancer la simulation»\\
+\hline
+Description & 1 - L'utilisateur lance le programme\\
+                   & 2 - L'utilisateur arrive dans le menu\\
+                   & 3 - L'utilisateur clique sur «Simulation»\\
+                   & 4 - La simulation apparait\\
+\hline
+\hline
+Sommaire & Scénario alternatif «Lancer la simulation»\\
+\hline
+Description & SA1: l'utilisateur clique sur «Crédits»\\
+& SA1 démarre au point 2 du scénario nominal\\
+&\\
+& ~~~~3~-~Les crédits apparaissent\\
+& ~~~~4~-~L'utilisateur clique sur retour\\
+&\\
+& Le scénario nominal reprend au point 2\\
+
+\hline
+\hline
+Sommaire & Scénario alternatif «Lancer la simulation»\\
+\hline
+Description & SA2: l'utilisateur clique sur «Quitter»\\
+& SA2 démarre au point 2 du scénario nominal\\
+&\\
+& ~~~~3~-~Le programme se ferme\\
+\hline
+\hline
+Sommaire & Scénario d'erreur  «Lancer la simulation»\\
+\hline
+Description & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Scénario «Lancer la simulation»}
+\label{tab:table}
+\end{table}
+
+\newpage
+\subsubsection{Diagramme de séquence}
+Etant dans le menu, l'utilisateur a la possibilité de lancer la
+simulation, d'afficher les crédits ou de quitter le programme.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=13cm]{../images/sequence_menu}
+\end{center}
+\caption{Séquence «Lancer la simulation»}
+\label{fig:figure}
+\end{figure}
+
+\newpage
+\subsubsection{Diagramme d'activité}
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=13cm]{../images/activite_menu}
+\end{center}
+\caption{Activité «Navigation dans le menu»}
+\label{fig:figure}
+\end{figure}
+
+\newpage
+\subsection{Mettre en mouvement le pont}
+Ce cas d'utilisation décrits le processus permettant la mise en
+mouvement du pont.
+
+\subsubsection{Scénarios}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{9cm}|}
+\hline
+Sommaire & Scénario nominal «Mettre en mouvement le pont»\\
+\hline
+Description & 1 - L'utilisateur interagit avec les mécanismes\\
+                   & 2 - Le système vérifie que les mécanismes sont
+activés dans l'ordre\\
+                   & 3 - Le pont s'ouvre ou se ferme\\
+\hline
+\hline
+Sommaire & Scénario alternatif «Mettre en mouvement le pont»\\
+\hline
+Description & \textbf{SA1}~: Ordre d'activation des mécanismes
+incorect\\
+                   & ~~~~~~~~~\textit{SA1} démarre au point 2 du scénario 
+nominal\\
+                   & ~~~~~~~~~3 - Le système indique à l'utilisateur que les
+mécanismes empêchent le mouvement du pont\\
+                  &  ~~~~~~~~~Le scénario nominal reprend au point 1\\
+\hline
+\hline
+Sommaire & Scénario d'erreur  «Mettre en mouvement le pont»\\
+\hline
+Description & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Scénario «Mettre en mouvement le pont»}
+\label{tab:table}
+\end{table}
+
+\subsubsection{Diagrammes de séquences}
+Pour plus de lisibilité, nous avons décomposé cette séquence en deux
+diagrammes.
+\paragraph{Rotation}
+La rotation du pont n'est possible que si la
+mâchoire\footnote{mâchoire: mécanisme permettant la connexion entre le
+  pont et la rive} et le loquet\footnote{loquet: mécanisme permettant
+  l'alignement des deux travées} 
+sont en positions ouverte. Si ce n'est pas le cas,  il
+n'est pas envisageable de mettre le pont en rotation via le
+cabestan\footnote{cabestan: mécanisme permettant la rotation du pont}, sous peine
+d'endommager les mécanismes.\\
+Dans le cas où un (ou plusieurs) des mécanismes ne serait pas en
+position adéquate, l'utilisateur serait averti par un moyen que nous
+n'avons pas encore défini.
+\begin{figure}[htbp]
+\begin{center}
+  \includegraphics[width=13cm]{../images/sequence_rotation}
+\end{center}
+\label{fig:figure}
+\caption{Séquence de rotation}
+\end{figure}
+\newpage
+\paragraph{Séquence globale}
+Cette séquence indique la marche à suivre pour ouvrir ou fermer le
+pont, c'est à dire qu'il faut déverrouiller les mécanismes de bloquage
+avant d'ouvrir le pont et les verrouiller après l'avoir fermé.
+\begin{figure}[htbp]
+\begin{center}
+  \includegraphics[width=13cm]{../images/sequence_mouvement}
+\end{center}
+\label{fig:figure}
+\caption{Séquence de d'ouverture/fermeture du pont}
+\end{figure}
+
+\newpage
+\subsubsection{Activité mouvement du pont}
+\begin{figure}[htbp]
+  \includegraphics[width=15cm]{../images/activite_mouvement}
+\label{fig:figure}
+\caption{Activité ouverture/fermeture du pont}
+\end{figure}
+
+\newpage
+\subsection{Se déplacer}
+Nous souhaitons que l'utilisateur puisse se déplacer librement sur le
+pont, ainsi qu'en caméra libre pour une meilleure observation des
+mécanismes.
+\subsubsection{Scénarios}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{9cm}|}
+\hline
+Sommaire & Scénario nominal «Se déplacer»\\
+\hline
+Description & 1 - L'utilisateur de déplace en vue première personne
+sur le pont\\
+\hline
+\hline
+Sommaire & Scénario alternatif  «Se déplacer»\\
+\hline
+Description & \textbf{SA1}~: Appuie sur la touche de changement de caméra\\
+                  &  ~~~~~~~~~2~-~L'utilisateur se déplace en vue
+caméra libre autour du pont \\
+\hline
+\hline
+Sommaire & Scénario d'erreur  «Se déplacer»\\
+\hline
+Description & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Scénario «Se déplacer»}
+\label{tab:table}
+\end{table}
+
+\newpage
+\subsubsection{Diagramme de séquence}
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=7cm]{../images/sequence_deplacement}
+\end{center}
+\caption{Séquence se déplacer}
+\label{fig:figure}
+\end{figure}
+
+
+\newpage
+\subsection{Consulter l'histoire du pont}
+Nous souhaitons aussi compléter la simulation par un présentation
+rapide de l'histoire de ce pont.
+\subsubsection{Scénarios}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{9cm}|}
+\hline
+Sommaire & Scénario nominal «Consulter l'histoire du pont»\\
+\hline
+Description & 1 - L'utilisateur interagit avec le panneau situé à
+l'entrée du pont\\
+& 2 - Une fenêtre s'affiche contenant l'histoire du pont\\
+& 3 - L'utilisateur ferme la fenêtre \\
+\hline
+\hline
+Sommaire & Scénario alternatif «Consulter l'histoire du pont»\\
+\hline
+Description &  \\
+\hline
+\hline
+Sommaire & Scénario d'erreur  «Consulter l'histoire du pont»\\
+\hline
+Description & \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Scénario «Consulter l'histoire du pont»}
+\label{tab:table}
+\end{table}
+
+\subsubsection{Diagramme de séquence}
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10cm]{../images/sequence_historique}
+\end{center}
+\label{fig:figure}
+\caption{Séquence historique}
+\end{figure}
