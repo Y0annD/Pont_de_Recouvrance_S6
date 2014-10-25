@@ -21,7 +21,7 @@
     <DEPENDENCIES>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Generalization" uid="a07b756f-8fed-4372-8a54-2f630e3e96a7"/>
+          <ID name="Generalization" mc="Generalization" uid="c320f78a-649f-46df-bc54-a06fc6fcdb84"/>
           <PID name="Machoire" mc="Class" uid="d3d07b03-dfef-4038-b629-14019c7f8f77"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
