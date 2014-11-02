@@ -69,17 +69,6 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="OwnedRegion">
-                    <OBJECT>
-                      <ID name="Region" mc="Region" uid="b4a72f20-5627-4b11-a0e9-06d47ec9e925"/>
-                      <PID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[Region]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                   <COMP relation="OutGoing">
                     <OBJECT>
                       <ID name="Transition" mc="Transition" uid="327f7293-6790-4a76-aebe-b56e79e81a19"/>
@@ -160,7 +149,7 @@
                 <DEPENDENCIES>
                   <COMP relation="Internal">
                     <OBJECT>
-                      <ID name="Do" mc="InternalTransition" uid="deb761e1-12d7-4700-a4a9-39a5d062c42c"/>
+                      <ID name="Do" mc="InternalTransition" uid="97290d9c-0936-4c7e-a193-635b72d1f7e5"/>
                       <PID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
                       <ATTRIBUTES>
                         <ATT name="Effect"></ATT>
@@ -181,17 +170,6 @@
                       </DEPENDENCIES>
                     </OBJECT>
                   </COMP>
-                  <COMP relation="OwnedRegion">
-                    <OBJECT>
-                      <ID name="Region" mc="Region" uid="13954eea-df57-43a0-87b1-badda3419c51"/>
-                      <PID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[Region]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
                   <COMP relation="OutGoing">
                     <OBJECT>
                       <ID name="Transition" mc="Transition" uid="aa9dc2ce-d0b2-4623-8117-0a104a1b2c3e"/>
@@ -200,7 +178,7 @@
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"></ATT>
+                        <ATT name="Guard"><![CDATA[angle==90]]></ATT>
                         <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -221,7 +199,7 @@
                         <ATT name="Effect"></ATT>
                         <ATT name="ReceivedEvents"></ATT>
                         <ATT name="SentEvents"></ATT>
-                        <ATT name="Guard"></ATT>
+                        <ATT name="Guard"><![CDATA[angle==0]]></ATT>
                         <ATT name="PostCondition"></ATT>
                         <ATT name="Name"><![CDATA[Transition1]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -287,6 +265,28 @@
               <ID name="fermer" mc="Signal" uid="6741a9fb-5324-401c-abab-a41732595a62"/>
             </LINK>
           </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ouvert" mc="Event" uid="dd5d79a3-8649-494c-ad6d-b759d8566666"/>
+          <PID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
+          <ATTRIBUTES>
+            <ATT name="Expression"></ATT>
+            <ATT name="Kind">SignalEvent</ATT>
+            <ATT name="Name"><![CDATA[ouvert]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ferme" mc="Event" uid="b26d7996-b76f-45f5-a345-10e4b3d1cd45"/>
+          <PID name="travee" mc="StateMachine" uid="f8ee6217-0bcc-403a-bbdd-e0b8a4966d94"/>
+          <ATTRIBUTES>
+            <ATT name="Expression"></ATT>
+            <ATT name="Kind">SignalEvent</ATT>
+            <ATT name="Name"><![CDATA[ferme]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Product">

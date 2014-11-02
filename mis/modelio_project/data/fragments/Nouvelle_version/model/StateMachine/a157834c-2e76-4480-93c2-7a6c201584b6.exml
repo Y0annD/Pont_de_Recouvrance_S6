@@ -120,6 +120,12 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Trigger">
+                          <REFOBJ>
+                            <ID name="verrouiller" mc="Event" uid="37684381-f278-4d7b-a9d3-6632cb3264a3"/>
+                            <PID name="Systeme" mc="StateMachine" uid="a157834c-2e76-4480-93c2-7a6c201584b6"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="Target">
                           <REFOBJ>
                             <ID name="Verrouillé" mc="State" uid="8ca48398-6fe2-49b8-93ab-9ae087cc5ca6"/>

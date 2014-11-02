@@ -3,17 +3,35 @@
 \subsection{Simulation}
 La simulation représente l'environnement dans lequel évolue
 l'utilisateur.
-Elle est composée d'une Caméra, d'un Panneau et des travées qui
+Elle est composée d'une Caméra, d'un Panneau et des deux travées qui
 composent le pont.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10cm]{../images/state_machine/simulation.png}
+\end{center}
+\label{fig:figure}
+\caption{stm Simulation}
+\end{figure}
+
 \subsubsection{Camera}
 La caméra représente le point de vue de l'utilisateur. Elle possède
 deux modes de vue, la vue libre \footnote{déplacements libres dans l'espace sans
 restriction} et la vue à la première personne \footnote{déplacements
   similaires à ceux d'un humain}
 \subsubsection{Panneau}
-Le panneau sert à afficher un historique succint du pont, lorsque
+Le panneau sert à afficher un historique succinct du pont, lorsque
 l'utilisateur interagira avec celui-ci, une fenêtre affichera les
 informations clés du pont.
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10cm]{../images/state_machine/panneau.png}
+\end{center}
+\label{fig:figure}
+\caption{stm Panneau}
+\end{figure}
+
+
+\newpage
 
 \subsubsection{Travée}
 La travée représente une moitié du pont, elle sera décrite dans la
@@ -23,10 +41,9 @@ section \ref{Travee}.
 \includegraphics[width=10cm]{../images/class/Simulation.png}
 \end{center}
 \label{fig:figure}
-\caption{Classe Camera}
+\caption{Simulation}
 \end{figure}
 
-\newpage
 
 \subsection{Travée}\label{Travee}
 La travée est composée de trois principaux \textit{systèmes
@@ -37,8 +54,19 @@ La travée est composée de trois principaux \textit{systèmes
 \item La Mâchoire\label{machoire}
 \end{itemize}
 La mâchoire et le loquet sont les mécanismes qui servent au
-verrouillage du pont en position fermée, tandis que le cabestan sert à
+verrouillage du pont en position fermé, tandis que le cabestan sert à
 mettre en rotation la travée.
+
+\begin{tabular}{ccc}
+\includegraphics[width=3.2cm]{../images/cabestan.png}
+&
+\includegraphics[width=3.2cm]{../images/loquet.jpg}
+&
+\includegraphics[width=3.2cm]{../images/machoire.jpg}
+\\
+Cabestan & Loquet & Mâchoire
+\end{tabular}
+\newpage
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=7.5cm]{../images/class/Travee.png}
@@ -47,38 +75,57 @@ mettre en rotation la travée.
 \caption{Travée}
 \end{figure}
 
+La travée comporte trois états, lorsque l'on démarre l'application, la
+travée est à l'état \textit{Fermé}, lorsque l'utilisateur souhaite
+ouvrir la travée, elle passe alors à l'état \textit{Mouvement}, puis
+lorsque la phase d'ouverture est terminée, la travée passe à l'état \textit{Fermé}.
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10cm]{../images/state_machine/travee.png}
+\end{center}
+\label{fig:figure}
+\caption{stm Travee}
+\end{figure}
 \newpage
 
-
-\subsection{Systèmes mécanique}
+\subsection{Système mécanique}
 Le pont est mis en mouvement par des systèmes mécaniques à engrenage.
 L'engrenage est un ensemble de roues, chacune définie par son
 diamètre et sa vitesse de rotation, paramètre évoluant selon l'état actuel du pont.
 La classe système est concrétisée par les mécanismes \textit{Loquet}
-et \textit{Machoire} présenté appartenant à la travée (cf:
+et \textit{Machoire} présentés comme appartenant à la travée (cf:
 \ref{Travee})\\
 La classe position permet de positionner ou d'obtenir la position d'un
 élément, elle contient aussi différentes données par rapport à son orientation.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=14cm]{../images/class/system.png}
+\includegraphics[width=14cm]{../images/class/system2.png}
 \end{center}
 \label{fig:figure}
 \caption{Système mécanique}
 \end{figure}
 
-\newpage
-
-\subsection{Position}
-La classe position permet de positionner ou d'obtenir la position d'un
-élément, elle contient aussi différentes données par rapport à l'orientation.
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=13cm]{../images/class/Position.png}
+\includegraphics[width=7cm]{../images/state_machine/system.png}
 \end{center}
 \label{fig:figure}
-\caption{Classe Position}
+\caption{stm Système}
 \end{figure}
+
+\newpage
+
+%% \subsection{Position}
+%% La classe position permet de positionner ou d'obtenir la position d'un
+%% élément, elle contient aussi différentes données par rapport à l'orientation.
+%% \begin{figure}[htbp]
+%% \begin{center}
+%% \includegraphics[width=13cm]{../images/class/Position.png}
+%% \end{center}
+%% \label{fig:figure}
+%% \caption{Classe Position}
+%% \end{figure}
 
 
 

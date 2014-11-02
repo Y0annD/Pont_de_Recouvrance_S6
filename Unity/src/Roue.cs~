@@ -1,0 +1,16 @@
+class Roue
+{
+  // vitesse de rotation de la roue
+  private float _rot_vitesse;
+  // diamètre de la roue
+  private float _diametre;
+
+  /* constructeur
+   * Le diamètre de la roue ne peut être modifiè après sa création
+   **/
+  public Roue(float diametre)
+  {
+    _diametre = diametre;
+    _rot_vitesse = 0.0f;
+  }
+}
