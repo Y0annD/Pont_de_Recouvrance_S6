@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ReverseCore" version="3">
+  <DEPS>
+    <ID name="ReverseCore" mc="Profile" uid="f3a46d9d-867c-11de-961e-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ReverseCore" mc="Profile" uid="f3a46d9d-867c-11de-961e-001302895b2b"/>
+    <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="JCode"></ATT>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ReverseCore]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

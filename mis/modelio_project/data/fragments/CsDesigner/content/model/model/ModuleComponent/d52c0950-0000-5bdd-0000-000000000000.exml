@@ -1,0 +1,669 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsDesigner" version="3">
+  <DEPS>
+    <ID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+    <COMPID name="2003" mc="Profile" uid="01ec1624-0000-52af-0000-000000000000"/>
+    <COMPID name="2005" mc="Profile" uid="01ec1624-0000-52b5-0000-000000000000"/>
+    <COMPID name="2008" mc="Profile" uid="01ec1624-0000-52bb-0000-000000000000"/>
+    <COMPID name="Cs" mc="Profile" uid="d52c0950-0000-0321-0000-000000000000"/>
+    <COMPID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <COMPID name="CsProfile" mc="Profile" uid="25801898-0000-0bc3-0000-000000000000"/>
+    <COMPID name="Dialogs" mc="Profile" uid="019c0174-0000-0827-0000-000000000000"/>
+    <COMPID name="DotNET" mc="Profile" uid="d52c0950-0000-02f6-0000-000000000000"/>
+    <COMPID name="GenCsProfile" mc="Profile" uid="25801898-0000-0bde-0000-000000000000"/>
+    <COMPID name="Reverse" mc="Profile" uid="019c0174-0000-0843-0000-000000000000"/>
+    <COMPID name="ReverseAssembly" mc="Profile" uid="a3103a65-c569-11de-9d38-001302895b2b"/>
+    <COMPID name="ReverseCSharp" mc="Profile" uid="019c0140-0000-0213-0000-000000000000"/>
+    <COMPID name="ReverseCore" mc="Profile" uid="f3a46d9d-867c-11de-961e-001302895b2b"/>
+    <COMPID name="ReverseCs" mc="Profile" uid="d52c0950-0000-0384-0000-000000000000"/>
+    <COMPID name="ReverseReport" mc="Profile" uid="e841c7cf-c212-11de-a959-001302895b2b"/>
+    <COMPID name="ReverseSource" mc="Profile" uid="019c00a8-0000-007c-0000-000000000000"/>
+    <COMPID name="VS" mc="Profile" uid="01ec1624-0000-40ae-0000-000000000000"/>
+    <COMPID name="XXXVSnet" mc="Profile" uid="d52c0aa0-0006-0699-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">3</ATT>
+      <ATT name="MinVersion">2</ATT>
+      <ATT name="MinMinVersion"><![CDATA[0.9022]]></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"><![CDATA[com.modeliosoft.modelio.csdesigner.impl.CsDesignerModule]]></ATT>
+      <ATT name="State">SoModuleStateActivated</ATT>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CsDesigner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedProfile">
+        <COMPID name="CsProfile" mc="Profile" uid="25801898-0000-0bc3-0000-000000000000"/>
+        <COMPID name="GenCsProfile" mc="Profile" uid="25801898-0000-0bde-0000-000000000000"/>
+        <COMPID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+        <COMPID name="ReverseCSharp" mc="Profile" uid="019c0140-0000-0213-0000-000000000000"/>
+        <COMPID name="DotNET" mc="Profile" uid="d52c0950-0000-02f6-0000-000000000000"/>
+        <COMPID name="Cs" mc="Profile" uid="d52c0950-0000-0321-0000-000000000000"/>
+        <COMPID name="ReverseCore" mc="Profile" uid="f3a46d9d-867c-11de-961e-001302895b2b"/>
+        <COMPID name="ReverseSource" mc="Profile" uid="019c00a8-0000-007c-0000-000000000000"/>
+        <COMPID name="Reverse" mc="Profile" uid="019c0174-0000-0843-0000-000000000000"/>
+        <COMPID name="Dialogs" mc="Profile" uid="019c0174-0000-0827-0000-000000000000"/>
+        <COMPID name="ReverseCs" mc="Profile" uid="d52c0950-0000-0384-0000-000000000000"/>
+        <COMPID name="VS" mc="Profile" uid="01ec1624-0000-40ae-0000-000000000000"/>
+        <COMPID name="2003" mc="Profile" uid="01ec1624-0000-52af-0000-000000000000"/>
+        <COMPID name="2005" mc="Profile" uid="01ec1624-0000-52b5-0000-000000000000"/>
+        <COMPID name="2008" mc="Profile" uid="01ec1624-0000-52bb-0000-000000000000"/>
+        <COMPID name="XXXVSnet" mc="Profile" uid="d52c0aa0-0006-0699-0000-000000000000"/>
+        <COMPID name="ReverseReport" mc="Profile" uid="e841c7cf-c212-11de-a959-001302895b2b"/>
+        <COMPID name="ReverseAssembly" mc="Profile" uid="a3103a65-c569-11de-9d38-001302895b2b"/>
+      </COMP>
+      <COMP relation="ModuleParameter">
+        <OBJECT>
+          <ID name="GenerationMode" mc="ModuleParameter" uid="96b45b04-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[GenerationMode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RetrieveDefaultBehaviour" mc="ModuleParameter" uid="3c2f38d1-cd0c-11de-8120-00137279a5d1"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[RetrieveDefaultBehaviour]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FrameworkPath" mc="ModuleParameter" uid="96c76e0a-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[FrameworkPath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="SdkVersion" mc="ModuleParameter" uid="96c76e0c-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[SdkVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="VisualPath" mc="ModuleParameter" uid="96c9d077-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[VisualPath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GenerationPath" mc="ModuleParameter" uid="96c76e11-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[GenerationPath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CustomizationFile" mc="ModuleParameter" uid="16f26c5c-d52c-11de-99eb-00137279a5d1"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[CustomizationFile]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ConsistencyControl" mc="ModuleParameter" uid="96c9d075-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[ConsistencyControl]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCsNaming" mc="ModuleParameter" uid="96c76e13-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[UseCsNaming]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FieldPrefix" mc="ModuleParameter" uid="96c76e19-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[FieldPrefix]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FullNameGeneration" mc="ModuleParameter" uid="7e2ea875-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[FullNameGeneration]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PropGenCSharpV3" mc="ModuleParameter" uid="96c9d071-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PropGenCSharpV3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ReversePath" mc="ModuleParameter" uid="96ce9533-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[ReversePath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InterfaceImplementation" mc="ModuleParameter" uid="7e0d46fb-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[InterfaceImplementation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="AccessorsGeneration" mc="ModuleParameter" uid="7e2ea873-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[AccessorsGeneration]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PublicAccessorVisibility" mc="ModuleParameter" uid="7e2ea879-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PublicAccessorVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PublicModifierVisibility" mc="ModuleParameter" uid="7e336d3b-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PublicModifierVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ProtectedAccessorVisibility" mc="ModuleParameter" uid="7e2ea87b-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[ProtectedAccessorVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ProtectedModifierVisibility" mc="ModuleParameter" uid="7e310adb-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[ProtectedModifierVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FriendlyAccessorVisibility" mc="ModuleParameter" uid="7e2ea87d-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[FriendlyAccessorVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="FriendlyModifierVisibility" mc="ModuleParameter" uid="7e310ad7-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[FriendlyModifierVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PrivateAccessorVisibility" mc="ModuleParameter" uid="7e2ea877-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PrivateAccessorVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PrivateModifierVisibility" mc="ModuleParameter" uid="7e310ad9-3fb2-11de-9913-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PrivateModifierVisibility]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PrePostGeneration" mc="ModuleParameter" uid="96c76e15-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PrePostGeneration]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InvariantsGeneration" mc="ModuleParameter" uid="96c76e17-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[InvariantsGeneration]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseExternalEdition" mc="ModuleParameter" uid="cb307ded-8675-11de-8519-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[UseExternalEdition]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ExternalEditorCommandLine" mc="ModuleParameter" uid="cb3c69be-8675-11de-8519-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[ExternalEditorCommandLine]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CompilationPath" mc="ModuleParameter" uid="96cc32ce-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[CompilationPath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="MakeCommand" mc="ModuleParameter" uid="96cc32d0-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[MakeCommand]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CsCompiler" mc="ModuleParameter" uid="96cc32d2-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[CsCompiler]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CompilationOptions" mc="ModuleParameter" uid="96cc32d6-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[CompilationOptions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Lib" mc="ModuleParameter" uid="96cc32d8-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[Lib]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Debug" mc="ModuleParameter" uid="96ce952d-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[Debug]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Unsafe" mc="ModuleParameter" uid="96ce952f-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[Unsafe]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="runParameters" mc="ModuleParameter" uid="96ce9537-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[runParameters]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="NDocPath" mc="ModuleParameter" uid="96ce9531-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[NDocPath]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="GenerateDoc" mc="ModuleParameter" uid="96cc32da-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[GenerateDoc]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DescriptionAsCsDoc" mc="ModuleParameter" uid="96c9d073-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[DescriptionAsCsDoc]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PackageSrcInRamc" mc="ModuleParameter" uid="96ce9539-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PackageSrcInRamc]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="PackageDllInRamc" mc="ModuleParameter" uid="96ce953b-3882-11de-96a9-001302895b2b"/>
+          <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[PackageDllInRamc]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

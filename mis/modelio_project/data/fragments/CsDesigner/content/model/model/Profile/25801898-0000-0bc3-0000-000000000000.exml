@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsProfile" version="3">
+  <DEPS>
+    <ID name="CsProfile" mc="Profile" uid="25801898-0000-0bc3-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="00c80908-0000-0001-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="00c80908-0000-1f4a-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec1948-0000-1b93-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-02ea-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0313-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0380-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-040a-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0432-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0458-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-049f-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-04c8-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-04f3-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0531-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0578-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-05a2-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-05ac-0000-000000000000"/>
+    <COMPID name="CsAttribute" mc="Stereotype" uid="019c0170-0000-000e-0000-000000000000"/>
+    <COMPID name="CsDelegate" mc="Stereotype" uid="d52c0950-0000-06e7-0000-000000000000"/>
+    <COMPID name="CsDelegateContainer" mc="Stereotype" uid="d52c0aa0-0000-560a-0000-000000000000"/>
+    <COMPID name="CsEvent" mc="Stereotype" uid="d52c0ab0-0000-0069-0000-000000000000"/>
+    <COMPID name="CsExecutable" mc="Stereotype" uid="019c0174-0000-0308-0000-000000000000"/>
+    <COMPID name="CsFileGroup" mc="Stereotype" uid="019c0170-0000-0525-0000-000000000000"/>
+    <COMPID name="CsIndexer" mc="Stereotype" uid="019c0170-0000-0016-0000-000000000000"/>
+    <COMPID name="CsLibrary" mc="Stereotype" uid="019c0174-0000-030c-0000-000000000000"/>
+    <COMPID name="CsOperator" mc="Stereotype" uid="d52c0950-0000-06e9-0000-000000000000"/>
+    <COMPID name="CsProjExecutable" mc="Stereotype" uid="01ec1948-0000-16bc-0000-000000000000"/>
+    <COMPID name="CsProjLibrary" mc="Stereotype" uid="01ec1948-0000-16c1-0000-000000000000"/>
+    <COMPID name="CsProjWindowsExecutable" mc="Stereotype" uid="01ec1948-0000-16c6-0000-000000000000"/>
+    <COMPID name="CsStaticConstructor" mc="Stereotype" uid="019c0174-0003-405e-0000-000000000000"/>
+    <COMPID name="CsUse" mc="Stereotype" uid="019c0170-0000-0523-0000-000000000000"/>
+    <COMPID name="CsWebService" mc="Stereotype" uid="019c0170-0000-001a-0000-000000000000"/>
+    <COMPID name="CsWebServiceProxy" mc="Stereotype" uid="019c0170-0000-0018-0000-000000000000"/>
+    <COMPID name="CsWindowsExecutable" mc="Stereotype" uid="019c0174-0000-030a-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsProfile" mc="Profile" uid="25801898-0000-0bc3-0000-000000000000"/>
+    <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="JCode"></ATT>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CsProfile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="CsAttribute" mc="Stereotype" uid="019c0170-0000-000e-0000-000000000000"/>
+        <COMPID name="CsDelegate" mc="Stereotype" uid="d52c0950-0000-06e7-0000-000000000000"/>
+        <COMPID name="CsDelegateContainer" mc="Stereotype" uid="d52c0aa0-0000-560a-0000-000000000000"/>
+        <COMPID name="CsEvent" mc="Stereotype" uid="d52c0ab0-0000-0069-0000-000000000000"/>
+        <COMPID name="CsExecutable" mc="Stereotype" uid="019c0174-0000-0308-0000-000000000000"/>
+        <COMPID name="CsFileGroup" mc="Stereotype" uid="019c0170-0000-0525-0000-000000000000"/>
+        <COMPID name="CsIndexer" mc="Stereotype" uid="019c0170-0000-0016-0000-000000000000"/>
+        <COMPID name="CsLibrary" mc="Stereotype" uid="019c0174-0000-030c-0000-000000000000"/>
+        <COMPID name="CsOperator" mc="Stereotype" uid="d52c0950-0000-06e9-0000-000000000000"/>
+        <COMPID name="CsProjExecutable" mc="Stereotype" uid="01ec1948-0000-16bc-0000-000000000000"/>
+        <COMPID name="CsProjLibrary" mc="Stereotype" uid="01ec1948-0000-16c1-0000-000000000000"/>
+        <COMPID name="CsProjWindowsExecutable" mc="Stereotype" uid="01ec1948-0000-16c6-0000-000000000000"/>
+        <COMPID name="CsStaticConstructor" mc="Stereotype" uid="019c0174-0003-405e-0000-000000000000"/>
+        <COMPID name="CsUse" mc="Stereotype" uid="019c0170-0000-0523-0000-000000000000"/>
+        <COMPID name="CsWebService" mc="Stereotype" uid="019c0170-0000-001a-0000-000000000000"/>
+        <COMPID name="CsWebServiceProxy" mc="Stereotype" uid="019c0170-0000-0018-0000-000000000000"/>
+        <COMPID name="CsWindowsExecutable" mc="Stereotype" uid="019c0174-0000-030a-0000-000000000000"/>
+      </COMP>
+      <COMP relation="OwnedReference">
+        <COMPID name="" mc="MetaclassReference" uid="01ec1948-0000-1b93-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-02ea-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0313-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0380-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0578-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-040a-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-05a2-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="00c80908-0000-1f4a-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-05ac-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0432-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0458-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-049f-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-04c8-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-04f3-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="258017c4-0000-0531-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="00c80908-0000-0001-0000-000000000000"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

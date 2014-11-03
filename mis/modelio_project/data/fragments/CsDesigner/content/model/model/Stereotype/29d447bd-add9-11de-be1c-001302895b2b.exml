@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsAccessor" version="3">
+  <DEPS>
+    <ID name="CsAccessor" mc="Stereotype" uid="29d447bd-add9-11de-be1c-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsAccessor" mc="Stereotype" uid="29d447bd-add9-11de-be1c-001302895b2b"/>
+    <PID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[C# Accessor]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Operation]]></ATT>
+      <ATT name="Name"><![CDATA[CsAccessor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

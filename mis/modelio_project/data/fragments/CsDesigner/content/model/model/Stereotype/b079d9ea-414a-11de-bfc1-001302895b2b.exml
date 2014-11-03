@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsClass" version="3">
+  <DEPS>
+    <ID name="CsClass" mc="Stereotype" uid="b079d9ea-414a-11de-bfc1-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsClass" mc="Stereotype" uid="b079d9ea-414a-11de-bfc1-001302895b2b"/>
+    <PID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/cs_class.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/cs_class.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[C# Class]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Class]]></ATT>
+      <ATT name="Name"><![CDATA[CsClass]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="CsFileName" mc="TagType" uid="62479048-e8dd-11df-9909-0027103f347c"/>
+          <PID name="CsClass" mc="Stereotype" uid="b079d9ea-414a-11de-bfc1-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[File name]]></ATT>
+            <ATT name="Name"><![CDATA[CsFileName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,14 +1,20 @@
-class Simulation
+public class Simulation
 {
+
   private boolean pause;
+
+
   private Camera _camera;
   private Panneau _panneau;
-  private Travee
+  private Travee _travee;
 
   /* Constructeur, instancie tous les objets dont il à besoin*/
   public Simulation()
   {
     _pause = true;
     
+    _camera    = new Camera();
+    _panneau = new Panneau();
+    _travee     = new Travee(); 
   }
 }

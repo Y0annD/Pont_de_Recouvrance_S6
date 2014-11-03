@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
+  <DEPS>
+    <ID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+    <PID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="ReferencedClassName"><![CDATA[Artifact]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="AssemblyName" mc="TagType" uid="e99ab221-a6a2-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Assembly Name]]></ATT>
+            <ATT name="Name"><![CDATA[AssemblyName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Include" mc="TagType" uid="e99f76d6-a6a2-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Include]]></ATT>
+            <ATT name="Name"><![CDATA[Include]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="OutputType" mc="TagType" uid="e9a1d932-a6a2-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Output Type]]></ATT>
+            <ATT name="Name"><![CDATA[OutputType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="ProductVersion" mc="TagType" uid="e9a43b8d-a6a2-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Product Version]]></ATT>
+            <ATT name="Name"><![CDATA[ProductVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Reference" mc="TagType" uid="e9a90042-a6a2-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Reference]]></ATT>
+            <ATT name="Name"><![CDATA[Reference]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="RootNamespace" mc="TagType" uid="e9ab629e-a6a2-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Root Namespace]]></ATT>
+            <ATT name="Name"><![CDATA[RootNamespace]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TargetFrameworkVersion" mc="TagType" uid="0b492951-a6a6-11de-9d04-001302895b2b"/>
+          <PID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"><![CDATA[Target Framework Version]]></ATT>
+            <ATT name="Name"><![CDATA[TargetFrameworkVersion]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

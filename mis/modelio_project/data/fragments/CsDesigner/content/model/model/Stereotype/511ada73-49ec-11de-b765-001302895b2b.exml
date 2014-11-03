@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsEnumeration" version="3">
+  <DEPS>
+    <ID name="CsEnumeration" mc="Stereotype" uid="511ada73-49ec-11de-b765-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsEnumeration" mc="Stereotype" uid="511ada73-49ec-11de-b765-001302895b2b"/>
+    <PID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/cs_enumeration.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/cs_enumeration.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[C# Enumeration]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Enumeration]]></ATT>
+      <ATT name="Name"><![CDATA[CsEnumeration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

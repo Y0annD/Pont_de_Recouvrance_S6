@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsMakefile" version="3">
+  <DEPS>
+    <ID name="CsMakefile" mc="Stereotype" uid="fdc89983-8756-11de-a5f0-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsMakefile" mc="Stereotype" uid="fdc89983-8756-11de-a5f0-001302895b2b"/>
+    <PID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[C# Makefile]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Component]]></ATT>
+      <ATT name="Name"><![CDATA[CsMakefile]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

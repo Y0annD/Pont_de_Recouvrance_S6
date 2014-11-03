@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsLibrary" version="3">
+  <DEPS>
+    <ID name="CsLibrary" mc="Stereotype" uid="019c0174-0000-030c-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsLibrary" mc="Stereotype" uid="019c0174-0000-030c-0000-000000000000"/>
+    <PID name="CsProfile" mc="Profile" uid="25801898-0000-0bc3-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/component_big_library.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/component_library.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[C# Library]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Component]]></ATT>
+      <ATT name="Name"><![CDATA[CsLibrary]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

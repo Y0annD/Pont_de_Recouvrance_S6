@@ -3,7 +3,7 @@
   <DEPS>
     <ID name="Nouvelle_version" mc="Project" uid="c60d8729-06c0-452f-8f29-4b9e85e4537c"/>
     <COMPID name="Nouvelle_version" mc="DiagramSet" uid="fcfc1a46-f88e-4739-8a15-bf738c5911b9"/>
-    <COMPID name="nouvelle_version" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+    <COMPID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
   </DEPS>
   <OBJECT>
     <ID name="Nouvelle_version" mc="Project" uid="c60d8729-06c0-452f-8f29-4b9e85e4537c"/>
@@ -18,7 +18,7 @@
         <COMPID name="Nouvelle_version" mc="DiagramSet" uid="fcfc1a46-f88e-4739-8a15-bf738c5911b9"/>
       </COMP>
       <COMP relation="Model">
-        <COMPID name="nouvelle_version" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
+        <COMPID name="Pont de Recouvrance" mc="Package" uid="6f14e699-bee0-4705-adaa-09623744b36d"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

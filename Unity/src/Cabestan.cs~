@@ -1,0 +1,15 @@
+class Cabestan
+{
+  // engrenage associè au Cabestan
+  private Engrenage _engrenage;
+
+  public Cabestan()
+  {
+    
+  }
+
+  public Cabestan(Engrenage engrenage)
+  {
+    _engrenage = engrenage;
+  }
+}

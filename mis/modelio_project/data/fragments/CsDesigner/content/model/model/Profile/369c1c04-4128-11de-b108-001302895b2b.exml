@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CsDesigner" version="3">
+  <DEPS>
+    <ID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <COMPID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+    <COMPID name="CsAccessor" mc="Stereotype" uid="29d1e539-add9-11de-be1c-001302895b2b"/>
+    <COMPID name="CsAccessor" mc="Stereotype" uid="29d447bd-add9-11de-be1c-001302895b2b"/>
+    <COMPID name="CsClass" mc="Stereotype" uid="b079d9ea-414a-11de-bfc1-001302895b2b"/>
+    <COMPID name="CsEnumeration" mc="Stereotype" uid="511ada73-49ec-11de-b765-001302895b2b"/>
+    <COMPID name="CsInterface" mc="Stereotype" uid="51187819-49ec-11de-b765-001302895b2b"/>
+    <COMPID name="CsMakefile" mc="Stereotype" uid="fdc89983-8756-11de-a5f0-001302895b2b"/>
+    <COMPID name="CsPackage" mc="Stereotype" uid="037906a0-412a-11de-b108-001302895b2b"/>
+    <COMPID name="CsProperty" mc="Stereotype" uid="cec1292d-d02f-11de-b2ee-00137279a5d1"/>
+    <COMPID name="CsProperty" mc="Stereotype" uid="1e7cce9b-d032-11de-b2ee-00137279a5d1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CsDesigner" mc="Profile" uid="369c1c04-4128-11de-b108-001302895b2b"/>
+    <PID name="CsDesigner" mc="ModuleComponent" uid="d52c0950-0000-5bdd-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="JCode"></ATT>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CsDesigner]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="CsPackage" mc="Stereotype" uid="037906a0-412a-11de-b108-001302895b2b"/>
+        <COMPID name="CsClass" mc="Stereotype" uid="b079d9ea-414a-11de-bfc1-001302895b2b"/>
+        <COMPID name="CsInterface" mc="Stereotype" uid="51187819-49ec-11de-b765-001302895b2b"/>
+        <COMPID name="CsEnumeration" mc="Stereotype" uid="511ada73-49ec-11de-b765-001302895b2b"/>
+        <COMPID name="CsMakefile" mc="Stereotype" uid="fdc89983-8756-11de-a5f0-001302895b2b"/>
+        <COMPID name="CsAccessor" mc="Stereotype" uid="29d1e539-add9-11de-be1c-001302895b2b"/>
+        <COMPID name="CsAccessor" mc="Stereotype" uid="29d447bd-add9-11de-be1c-001302895b2b"/>
+        <COMPID name="CsProperty" mc="Stereotype" uid="cec1292d-d02f-11de-b2ee-00137279a5d1"/>
+        <COMPID name="CsProperty" mc="Stereotype" uid="1e7cce9b-d032-11de-b2ee-00137279a5d1"/>
+      </COMP>
+      <COMP relation="OwnedReference">
+        <COMPID name="" mc="MetaclassReference" uid="b2d699c6-a6a1-11de-9d04-001302895b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
