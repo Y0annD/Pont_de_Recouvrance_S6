@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 07e5cbaa935f2904680e057c3c05a789
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cule.1
+    100002: Cule.2
+    100004: Pilier.1
+    100006: Pilier.2
+    100008: //RootNode
+    100010: Pont 1
+    100012: Pont 10
+    100014: Pont 11
+    100016: Pont 12
+    100018: Pont 13
+    100020: Pont 2
+    100022: Pont 3
+    100024: Pont 4
+    100026: Pont 5
+    100028: Pont 6
+    100030: Pont 7
+    100032: Pont 8
+    100034: Pont 9
+    100036: Pont-DC_Brep
+    100038: Pont-DC_Brep 1
+    100040: Pont-DC_Brep 2
+    100042: Pont-DC_Brep 3
+    100044: Pont-DC_Brep 4
+    100046: Pont-DC_Brep 5
+    100048: Travee.3
+    100050: Travee.4
+    400000: Cule.1
+    400002: Cule.2
+    400004: Pilier.1
+    400006: Pilier.2
+    400008: //RootNode
+    400010: Pont 1
+    400012: Pont 10
+    400014: Pont 11
+    400016: Pont 12
+    400018: Pont 13
+    400020: Pont 2
+    400022: Pont 3
+    400024: Pont 4
+    400026: Pont 5
+    400028: Pont 6
+    400030: Pont 7
+    400032: Pont 8
+    400034: Pont 9
+    400036: Pont-DC_Brep
+    400038: Pont-DC_Brep 1
+    400040: Pont-DC_Brep 2
+    400042: Pont-DC_Brep 3
+    400044: Pont-DC_Brep 4
+    400046: Pont-DC_Brep 5
+    400048: Travee.3
+    400050: Travee.4
+    2300000: Pont-DC_Brep
+    2300002: Pont-DC_Brep 1
+    2300004: Pont-DC_Brep 2
+    2300006: Pont-DC_Brep 3
+    2300008: Pont-DC_Brep 4
+    2300010: Pont-DC_Brep 5
+    3300000: Pont-DC_Brep
+    3300002: Pont-DC_Brep 1
+    3300004: Pont-DC_Brep 2
+    3300006: Pont-DC_Brep 3
+    3300008: Pont-DC_Brep 4
+    3300010: Pont-DC_Brep 5
+    4300000: Pont-DC_Brep
+    4300002: Pont-DC_Brep
+    4300004: Pont-DC_Brep
+    4300006: Pont-DC_Brep
+    4300008: Pont-DC_Brep
+    4300010: Pont-DC_Brep
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
