@@ -15,7 +15,7 @@ public class Movement : MonoBehaviour {
 								right = false;
 		} else {
 			transform.Rotate (new Vector3 (0, 0, -1) * Time.deltaTime);
-			if (angle.y <= 270-90.0)
+			if (angle.y <= 270)
 				right = true;
 				}
 	}
