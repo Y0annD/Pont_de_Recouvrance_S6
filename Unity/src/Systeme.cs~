@@ -1,6 +1,0 @@
-class Systeme
-{
-  // état du système
-  protected boolean verrouille;
-  protected boolean deverrouille;
-}

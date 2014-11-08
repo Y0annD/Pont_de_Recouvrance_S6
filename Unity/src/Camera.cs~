@@ -1,4 +1,0 @@
-class Camera{
-      private boolean _vue_libre;
-      
-}

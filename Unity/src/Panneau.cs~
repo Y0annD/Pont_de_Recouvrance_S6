@@ -1,7 +1,0 @@
-class Panneau
-{
-  public void Afficher()
-  {
-    
-  }
-}
