@@ -31,37 +31,7 @@
 *.tdo
 
 
-#===========================#
-# Fichiers générés par Unity#
-#===========================#
-Unity/Temp/
-Unity/Obj/
-Unity/Library/
-Unity/Assets/AssetStoreTools*
-
-#===============================#
-# Visual studio / Mono develop  #
-#===============================#
-
-Unity/ExportdObj/
-*.svd
-*.userprefs
-*.csproj
-*.pibd
-*.suo
-*.sln
-*.userprefs
-*.unityproj
-*.booproj
-
-#===================#
-# Fichiers systemes #
-#===================#
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-v100
-.Trashes
-Icon?
-ethumbs.db
-Thumbs.db
+Unity/Build/
+Unity/Assets/resources/dalle4_3DS/
+Unity/Assets/resources/dalle5_3DS/
+presentation/
