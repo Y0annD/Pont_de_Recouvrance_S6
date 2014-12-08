@@ -31,9 +31,9 @@ public class Travee : MonoBehaviour
     _etat    = "fermé";
 
     // initialisation des systèmes
-    machoire = new Machoire();
-    loquet      = new Loquet();
-    cabestan  = new Cabestan();
+    /*machoire = new Machoire();
+    loquet    = new Loquet();
+    cabestan  = new Cabestan();*/
   }
 
   // faire tourner la travé

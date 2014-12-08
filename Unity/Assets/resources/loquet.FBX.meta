@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: a9ae300009acf704d92bd0870fa28014
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Assemblage 1
+    100002: Assemblage 10
+    100004: Assemblage 11
+    100006: Assemblage 12
+    100008: Assemblage 13
+    100010: Assemblage 14
+    100012: Assemblage 15
+    100014: Assemblage 16
+    100016: Assemblage 17
+    100018: Assemblage 18
+    100020: Assemblage 19
+    100022: Assemblage 2
+    100024: Assemblage 3
+    100026: Assemblage 4
+    100028: Assemblage 5
+    100030: Assemblage 6
+    100032: Assemblage 7
+    100034: Assemblage 8
+    100036: Assemblage 9
+    100038: Assemblage-DC_Brep
+    100040: Assemblage-DC_Brep 1
+    100042: Assemblage-DC_Brep 2
+    100044: Assemblage-DC_Brep 3
+    100046: Assemblage-DC_Brep 4
+    100048: Assemblage-DC_Brep 5
+    100050: Assemblage-DC_Brep 6
+    100052: Assemblage-DC_Brep 7
+    100054: Assemblage-DC_Brep 8
+    100056: Assemblage-DC_Point
+    100058: Assemblage-DC_Point 1
+    100060: Assemblage-DC_Point 2
+    100062: Assemblage-DC_Point 3
+    100064: Assemblage-DC_Point 4
+    100066: Assemblage-DC_Point 5
+    100068: Axe 2.1
+    100070: //RootNode
+    100072: Part5.1
+    100074: Part6.1
+    100076: Symmetry of Part5.1.1
+    100078: Symmetry of Part6.1.1
+    100080: Symmetry of Verrou.1.1
+    100082: Symmetry of VERROU1.1.1
+    100084: Verrou.1
+    100086: VERROU1.1
+    100088: Assemblage 20
+    100090: Assemblage 21
+    100092: Assemblage 22
+    100094: Assemblage 23
+    100096: Assemblage 24
+    100098: Assemblage 25
+    100100: Assemblage-DC_Brep 10
+    100102: Assemblage-DC_Brep 11
+    100104: Assemblage-DC_Brep 9
+    100106: Symmetry of VisSansFin.1.1
+    100108: Trave01.1
+    100110: VisSansFin.1
+    400000: Assemblage 1
+    400002: Assemblage 10
+    400004: Assemblage 11
+    400006: Assemblage 12
+    400008: Assemblage 13
+    400010: Assemblage 14
+    400012: Assemblage 15
+    400014: Assemblage 16
+    400016: Assemblage 17
+    400018: Assemblage 18
+    400020: Assemblage 19
+    400022: Assemblage 2
+    400024: Assemblage 3
+    400026: Assemblage 4
+    400028: Assemblage 5
+    400030: Assemblage 6
+    400032: Assemblage 7
+    400034: Assemblage 8
+    400036: Assemblage 9
+    400038: Assemblage-DC_Brep
+    400040: Assemblage-DC_Brep 1
+    400042: Assemblage-DC_Brep 2
+    400044: Assemblage-DC_Brep 3
+    400046: Assemblage-DC_Brep 4
+    400048: Assemblage-DC_Brep 5
+    400050: Assemblage-DC_Brep 6
+    400052: Assemblage-DC_Brep 7
+    400054: Assemblage-DC_Brep 8
+    400056: Assemblage-DC_Point
+    400058: Assemblage-DC_Point 1
+    400060: Assemblage-DC_Point 2
+    400062: Assemblage-DC_Point 3
+    400064: Assemblage-DC_Point 4
+    400066: Assemblage-DC_Point 5
+    400068: Axe 2.1
+    400070: //RootNode
+    400072: Part5.1
+    400074: Part6.1
+    400076: Symmetry of Part5.1.1
+    400078: Symmetry of Part6.1.1
+    400080: Symmetry of Verrou.1.1
+    400082: Symmetry of VERROU1.1.1
+    400084: Verrou.1
+    400086: VERROU1.1
+    400088: Assemblage 20
+    400090: Assemblage 21
+    400092: Assemblage 22
+    400094: Assemblage 23
+    400096: Assemblage 24
+    400098: Assemblage 25
+    400100: Assemblage-DC_Brep 10
+    400102: Assemblage-DC_Brep 11
+    400104: Assemblage-DC_Brep 9
+    400106: Symmetry of VisSansFin.1.1
+    400108: Trave01.1
+    400110: VisSansFin.1
+    2300000: Assemblage-DC_Brep
+    2300002: Assemblage-DC_Brep 1
+    2300004: Assemblage-DC_Brep 2
+    2300006: Assemblage-DC_Brep 3
+    2300008: Assemblage-DC_Brep 4
+    2300010: Assemblage-DC_Brep 5
+    2300012: Assemblage-DC_Brep 6
+    2300014: Assemblage-DC_Brep 7
+    2300016: Assemblage-DC_Brep 8
+    2300018: Assemblage-DC_Brep 10
+    2300020: Assemblage-DC_Brep 11
+    2300022: Assemblage-DC_Brep 9
+    3300000: Assemblage-DC_Brep
+    3300002: Assemblage-DC_Brep 1
+    3300004: Assemblage-DC_Brep 2
+    3300006: Assemblage-DC_Brep 3
+    3300008: Assemblage-DC_Brep 4
+    3300010: Assemblage-DC_Brep 5
+    3300012: Assemblage-DC_Brep 6
+    3300014: Assemblage-DC_Brep 7
+    3300016: Assemblage-DC_Brep 8
+    3300018: Assemblage-DC_Brep 10
+    3300020: Assemblage-DC_Brep 11
+    3300022: Assemblage-DC_Brep 9
+    4300000: Assemblage-DC_Brep
+    4300002: Assemblage-DC_Brep
+    4300004: Assemblage-DC_Brep
+    4300006: Assemblage-DC_Brep
+    4300008: Assemblage-DC_Brep
+    4300010: Assemblage-DC_Brep
+    4300012: Assemblage-DC_Brep
+    4300014: Assemblage-DC_Brep
+    4300016: Assemblage-DC_Brep
+    4300018: Assemblage-DC_Brep
+    4300020: Assemblage-DC_Brep
+    4300022: Assemblage-DC_Brep
+    6400000: Assemblage-DC_Brep
+    6400002: Assemblage-DC_Brep 1
+    6400004: Assemblage-DC_Brep 10
+    6400006: Assemblage-DC_Brep 11
+    6400008: Assemblage-DC_Brep 2
+    6400010: Assemblage-DC_Brep 3
+    6400012: Assemblage-DC_Brep 4
+    6400014: Assemblage-DC_Brep 5
+    6400016: Assemblage-DC_Brep 6
+    6400018: Assemblage-DC_Brep 7
+    6400020: Assemblage-DC_Brep 8
+    6400022: Assemblage-DC_Brep 9
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

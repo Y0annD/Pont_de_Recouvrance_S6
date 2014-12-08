@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 01b3bceca9c7ee1448df4785cc5d0f07
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Compass001
+    100002: Google Earth Snapshot_001
+    100004: Google Earth Snapshot_002
+    100006: Google Earth Terrain_001
+    100008: Google Earth Terrain_002
+    100010: //RootNode
+    100012: pont de recouvrance.DXF#1_001
+    100014: pont-de-recouvrance-par-ELG-Final_Daylight_001
+    100016: Sang_001
+    100018: Sang_002
+    100020: skpCamera001
+    100022: skpCamera001.Target
+    100024: Sky002
+    100026: Sun001
+    400000: Compass001
+    400002: Google Earth Snapshot_001
+    400004: Google Earth Snapshot_002
+    400006: Google Earth Terrain_001
+    400008: Google Earth Terrain_002
+    400010: //RootNode
+    400012: pont de recouvrance.DXF#1_001
+    400014: pont-de-recouvrance-par-ELG-Final_Daylight_001
+    400016: Sang_001
+    400018: Sang_002
+    400020: skpCamera001
+    400022: skpCamera001.Target
+    400024: Sky002
+    400026: Sun001
+    2300000: Google Earth Snapshot_001
+    2300002: Google Earth Snapshot_002
+    2300004: Google Earth Terrain_001
+    2300006: Google Earth Terrain_002
+    2300008: pont de recouvrance.DXF#1_001
+    2300010: Sang_001
+    3300000: Google Earth Snapshot_001
+    3300002: Google Earth Snapshot_002
+    3300004: Google Earth Terrain_001
+    3300006: Google Earth Terrain_002
+    3300008: pont de recouvrance.DXF#1_001
+    3300010: Sang_001
+    4300000: Google Earth Terrain_001
+    4300002: Google Earth Snapshot_001
+    4300004: Google Earth Terrain_002
+    4300006: Google Earth Snapshot_002
+    4300008: Sang_001
+    4300010: pont de recouvrance.DXF#1_001
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

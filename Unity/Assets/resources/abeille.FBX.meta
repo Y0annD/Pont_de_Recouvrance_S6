@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: a723e080db939224ab699ecd68ec585e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Abeille-Bourbon_Daylight_001
+    100004: Compass001
+    100006: Component#10_001
+    100008: Component#10_002
+    100010: Component#10_003
+    100012: Component#10_004
+    100014: Component#12_001
+    100016: Component#12_002
+    100018: Component#12_003
+    100020: Component#12_004
+    100022: Component#14_001
+    100024: Component#14_002
+    100026: Component#14_003
+    100028: Component#18_001
+    100030: Component#18_002
+    100032: Component#19_001
+    100034: Component#19_002
+    100036: Component#1_001
+    100038: Component#1_002
+    100040: Component#1_003
+    100042: Component#1_004
+    100044: Component#1_005
+    100046: Component#1_006
+    100048: Component#1_007
+    100050: Component#1_008
+    100052: Component#1_009
+    100054: Component#1_010
+    100056: Component#1_011
+    100058: Component#1_012
+    100060: Component#1_013
+    100062: Component#20_001
+    100064: Component#20_002
+    100066: Component#20_003
+    100068: Component#20_004
+    100070: Component#23_001
+    100072: Component#23_002
+    100074: Component#25_001
+    100076: Component#25_002
+    100078: Component#27_001
+    100080: Component#27_002
+    100082: Component#2_001
+    100084: Component#2_002
+    100086: Component#2_003
+    100088: Component#31_001
+    100090: Component#31_002
+    100092: Component#31_003
+    100094: Component#31_004
+    100096: Component#33_001
+    100098: Component#33_002
+    100100: Component#33_003
+    100102: Component#4_001
+    100104: Component#4_002
+    100106: Component#4_003
+    100108: Component#4_004
+    100110: Component#4_005
+    100112: Component#4_006
+    100114: Component#4_007
+    100116: Component#4_008
+    100118: Component#5_001
+    100120: Component#5_002
+    100122: Component#5_003
+    100124: Component#5_004
+    100126: Component#5_005
+    100128: Component#5_006
+    100130: Component#5_007
+    100132: Component#5_008
+    100134: Component#5_009
+    100136: Component#5_010
+    100138: Component#5_011
+    100140: Component#5_012
+    100142: Component#5_013
+    100144: Component#5_014
+    100146: Component#5_015
+    100148: Component#5_016
+    100150: Component#5_017
+    100152: Component#5_018
+    100154: Component#5_019
+    100156: Component#5_020
+    100158: Component#5_021
+    100160: Component#5_022
+    100162: Component#5_023
+    100164: Component#5_024
+    100166: Component#7_001
+    100168: Component#7_002
+    100170: Component#7_003
+    100172: Component#8_001
+    100174: Component#8_002
+    100176: Component#8_003
+    100178: Component#9_001
+    100180: Component#9_002
+    100182: Component#9_003
+    100184: Component#9_004
+    100186: Component#9_005
+    100188: Component#9_006
+    100190: Google Earth Snapshot_001
+    100192: Google Earth Terrain_001
+    100194: Group_001
+    100196: Group_002
+    100198: Group_003
+    100200: Group_004
+    100202: Group_005
+    100204: Group_006
+    100206: Group_007
+    100208: Group_008
+    100210: Group_009
+    100212: Group_010
+    100214: Group_011
+    100216: Group_012
+    100218: Group_013
+    100220: Group_014
+    100222: Group_015
+    100224: Group_016
+    100226: Group_017
+    100228: Group_018
+    100230: Group_019
+    100232: Group_020
+    100234: Group_021
+    100236: Group_022
+    100238: Group_023
+    100240: Group_024
+    100242: Group_025
+    100244: Group_026
+    100246: Group_027
+    100248: Group_028
+    100250: Group_029
+    100252: Group_030
+    100254: Group_031
+    100256: Group_032
+    100258: Group_033
+    100260: Group_034
+    100262: Group_035
+    100264: Group_036
+    100266: Group_037
+    100268: Group_038
+    100270: Group_039
+    100272: Group_040
+    100274: Group_041
+    100276: Group_042
+    100278: Group_043
+    100280: Group_044
+    100282: Group_045
+    100284: Group_046
+    100286: Group_047
+    100288: Group_048
+    100290: Group_049
+    100292: Group_050
+    100294: Group_051
+    100296: Group_052
+    100298: Group_053
+    100300: Group_054
+    100302: Group_055
+    100304: Group_056
+    100306: Group_057
+    100308: Group_058
+    100310: Group_059
+    100312: Group_060
+    100314: Group_061
+    100316: Group_062
+    100318: Group_063
+    100320: Group_064
+    100322: Group_065
+    100324: Group_066
+    100326: Group_067
+    100328: Group_068
+    100330: Group_069
+    100332: Group_070
+    100334: Group_071
+    100336: Group_072
+    100338: Group_073
+    100340: Group_074
+    100342: Group_075
+    100344: Group_076
+    100346: Group_077
+    100348: Group_078
+    100350: Group_079
+    100352: Group_080
+    100354: Group_081
+    100356: Group_082
+    100358: Group_083
+    100360: Scene 002
+    100362: Scene 002.Target
+    100364: Scene 003
+    100366: Scene 003.Target
+    100368: Scene 004
+    100370: Scene 004.Target
+    100372: Scene 005
+    100374: Scene 005.Target
+    100376: Scene 006
+    100378: Scene 006.Target
+    100380: Scene 007
+    100382: Scene 007.Target
+    100384: Scene 008
+    100386: Scene 008.Target
+    100388: Scene 009
+    100390: Scene 009.Target
+    100392: Scene 010
+    100394: Scene 010.Target
+    100396: Scene 011
+    100398: Scene 011.Target
+    100400: Scene 012
+    100402: Scene 012.Target
+    100404: Scene 013
+    100406: Scene 013.Target
+    100408: Scene 014
+    100410: Scene 014.Target
+    100412: Scene 015
+    100414: Scene 015.Target
+    100416: Scene 016
+    100418: Scene 016.Target
+    100420: Scene 017
+    100422: Scene 017.Target
+    100424: Scene 018
+    100426: Scene 018.Target
+    100428: Scene 019
+    100430: Scene 019.Target
+    100432: Scene 020
+    100434: Scene 020.Target
+    100436: Scene 021
+    100438: Scene 021.Target
+    100440: Scene 022
+    100442: Scene 022.Target
+    100444: Scene 023
+    100446: Scene 023.Target
+    100448: Sky002
+    100450: Sun001
+    400000: //RootNode
+    400002: Abeille-Bourbon_Daylight_001
+    400004: Compass001
+    400006: Component#10_001
+    400008: Component#10_002
+    400010: Component#10_003
+    400012: Component#10_004
+    400014: Component#12_001
+    400016: Component#12_002
+    400018: Component#12_003
+    400020: Component#12_004
+    400022: Component#14_001
+    400024: Component#14_002
+    400026: Component#14_003
+    400028: Component#18_001
+    400030: Component#18_002
+    400032: Component#19_001
+    400034: Component#19_002
+    400036: Component#1_001
+    400038: Component#1_002
+    400040: Component#1_003
+    400042: Component#1_004
+    400044: Component#1_005
+    400046: Component#1_006
+    400048: Component#1_007
+    400050: Component#1_008
+    400052: Component#1_009
+    400054: Component#1_010
+    400056: Component#1_011
+    400058: Component#1_012
+    400060: Component#1_013
+    400062: Component#20_001
+    400064: Component#20_002
+    400066: Component#20_003
+    400068: Component#20_004
+    400070: Component#23_001
+    400072: Component#23_002
+    400074: Component#25_001
+    400076: Component#25_002
+    400078: Component#27_001
+    400080: Component#27_002
+    400082: Component#2_001
+    400084: Component#2_002
+    400086: Component#2_003
+    400088: Component#31_001
+    400090: Component#31_002
+    400092: Component#31_003
+    400094: Component#31_004
+    400096: Component#33_001
+    400098: Component#33_002
+    400100: Component#33_003
+    400102: Component#4_001
+    400104: Component#4_002
+    400106: Component#4_003
+    400108: Component#4_004
+    400110: Component#4_005
+    400112: Component#4_006
+    400114: Component#4_007
+    400116: Component#4_008
+    400118: Component#5_001
+    400120: Component#5_002
+    400122: Component#5_003
+    400124: Component#5_004
+    400126: Component#5_005
+    400128: Component#5_006
+    400130: Component#5_007
+    400132: Component#5_008
+    400134: Component#5_009
+    400136: Component#5_010
+    400138: Component#5_011
+    400140: Component#5_012
+    400142: Component#5_013
+    400144: Component#5_014
+    400146: Component#5_015
+    400148: Component#5_016
+    400150: Component#5_017
+    400152: Component#5_018
+    400154: Component#5_019
+    400156: Component#5_020
+    400158: Component#5_021
+    400160: Component#5_022
+    400162: Component#5_023
+    400164: Component#5_024
+    400166: Component#7_001
+    400168: Component#7_002
+    400170: Component#7_003
+    400172: Component#8_001
+    400174: Component#8_002
+    400176: Component#8_003
+    400178: Component#9_001
+    400180: Component#9_002
+    400182: Component#9_003
+    400184: Component#9_004
+    400186: Component#9_005
+    400188: Component#9_006
+    400190: Google Earth Snapshot_001
+    400192: Google Earth Terrain_001
+    400194: Group_001
+    400196: Group_002
+    400198: Group_003
+    400200: Group_004
+    400202: Group_005
+    400204: Group_006
+    400206: Group_007
+    400208: Group_008
+    400210: Group_009
+    400212: Group_010
+    400214: Group_011
+    400216: Group_012
+    400218: Group_013
+    400220: Group_014
+    400222: Group_015
+    400224: Group_016
+    400226: Group_017
+    400228: Group_018
+    400230: Group_019
+    400232: Group_020
+    400234: Group_021
+    400236: Group_022
+    400238: Group_023
+    400240: Group_024
+    400242: Group_025
+    400244: Group_026
+    400246: Group_027
+    400248: Group_028
+    400250: Group_029
+    400252: Group_030
+    400254: Group_031
+    400256: Group_032
+    400258: Group_033
+    400260: Group_034
+    400262: Group_035
+    400264: Group_036
+    400266: Group_037
+    400268: Group_038
+    400270: Group_039
+    400272: Group_040
+    400274: Group_041
+    400276: Group_042
+    400278: Group_043
+    400280: Group_044
+    400282: Group_045
+    400284: Group_046
+    400286: Group_047
+    400288: Group_048
+    400290: Group_049
+    400292: Group_050
+    400294: Group_051
+    400296: Group_052
+    400298: Group_053
+    400300: Group_054
+    400302: Group_055
+    400304: Group_056
+    400306: Group_057
+    400308: Group_058
+    400310: Group_059
+    400312: Group_060
+    400314: Group_061
+    400316: Group_062
+    400318: Group_063
+    400320: Group_064
+    400322: Group_065
+    400324: Group_066
+    400326: Group_067
+    400328: Group_068
+    400330: Group_069
+    400332: Group_070
+    400334: Group_071
+    400336: Group_072
+    400338: Group_073
+    400340: Group_074
+    400342: Group_075
+    400344: Group_076
+    400346: Group_077
+    400348: Group_078
+    400350: Group_079
+    400352: Group_080
+    400354: Group_081
+    400356: Group_082
+    400358: Group_083
+    400360: Scene 002
+    400362: Scene 002.Target
+    400364: Scene 003
+    400366: Scene 003.Target
+    400368: Scene 004
+    400370: Scene 004.Target
+    400372: Scene 005
+    400374: Scene 005.Target
+    400376: Scene 006
+    400378: Scene 006.Target
+    400380: Scene 007
+    400382: Scene 007.Target
+    400384: Scene 008
+    400386: Scene 008.Target
+    400388: Scene 009
+    400390: Scene 009.Target
+    400392: Scene 010
+    400394: Scene 010.Target
+    400396: Scene 011
+    400398: Scene 011.Target
+    400400: Scene 012
+    400402: Scene 012.Target
+    400404: Scene 013
+    400406: Scene 013.Target
+    400408: Scene 014
+    400410: Scene 014.Target
+    400412: Scene 015
+    400414: Scene 015.Target
+    400416: Scene 016
+    400418: Scene 016.Target
+    400420: Scene 017
+    400422: Scene 017.Target
+    400424: Scene 018
+    400426: Scene 018.Target
+    400428: Scene 019
+    400430: Scene 019.Target
+    400432: Scene 020
+    400434: Scene 020.Target
+    400436: Scene 021
+    400438: Scene 021.Target
+    400440: Scene 022
+    400442: Scene 022.Target
+    400444: Scene 023
+    400446: Scene 023.Target
+    400448: Sky002
+    400450: Sun001
+    2300000: Component#10_001
+    2300002: Component#10_002
+    2300004: Component#10_003
+    2300006: Component#10_004
+    2300008: Component#12_001
+    2300010: Component#12_002
+    2300012: Component#12_003
+    2300014: Component#12_004
+    2300016: Component#14_001
+    2300018: Component#14_002
+    2300020: Component#14_003
+    2300022: Component#18_001
+    2300024: Component#18_002
+    2300026: Component#19_001
+    2300028: Component#19_002
+    2300030: Component#1_001
+    2300032: Component#1_002
+    2300034: Component#1_003
+    2300036: Component#1_004
+    2300038: Component#1_005
+    2300040: Component#1_006
+    2300042: Component#1_007
+    2300044: Component#1_008
+    2300046: Component#1_009
+    2300048: Component#1_010
+    2300050: Component#1_011
+    2300052: Component#1_012
+    2300054: Component#1_013
+    2300056: Component#20_001
+    2300058: Component#20_003
+    2300060: Component#23_001
+    2300062: Component#23_002
+    2300064: Component#25_001
+    2300066: Component#25_002
+    2300068: Component#27_001
+    2300070: Component#27_002
+    2300072: Component#2_001
+    2300074: Component#31_001
+    2300076: Component#31_002
+    2300078: Component#31_003
+    2300080: Component#31_004
+    2300082: Component#33_001
+    2300084: Component#33_002
+    2300086: Component#33_003
+    2300088: Component#4_001
+    2300090: Component#4_002
+    2300092: Component#4_003
+    2300094: Component#4_004
+    2300096: Component#4_005
+    2300098: Component#4_006
+    2300100: Component#4_007
+    2300102: Component#4_008
+    2300104: Component#5_001
+    2300106: Component#5_002
+    2300108: Component#5_003
+    2300110: Component#5_004
+    2300112: Component#5_005
+    2300114: Component#5_006
+    2300116: Component#5_007
+    2300118: Component#5_008
+    2300120: Component#5_009
+    2300122: Component#5_010
+    2300124: Component#5_011
+    2300126: Component#5_012
+    2300128: Component#5_013
+    2300130: Component#5_014
+    2300132: Component#5_015
+    2300134: Component#5_016
+    2300136: Component#5_017
+    2300138: Component#5_018
+    2300140: Component#5_019
+    2300142: Component#5_020
+    2300144: Component#5_021
+    2300146: Component#5_022
+    2300148: Component#5_023
+    2300150: Component#5_024
+    2300152: Component#7_001
+    2300154: Component#7_002
+    2300156: Component#7_003
+    2300158: Component#8_001
+    2300160: Component#9_001
+    2300162: Component#9_002
+    2300164: Component#9_003
+    2300166: Component#9_004
+    2300168: Component#9_005
+    2300170: Component#9_006
+    2300172: Google Earth Snapshot_001
+    2300174: Google Earth Terrain_001
+    2300176: Group_001
+    2300178: Group_002
+    2300180: Group_003
+    2300182: Group_004
+    2300184: Group_005
+    2300186: Group_007
+    2300188: Group_009
+    2300190: Group_010
+    2300192: Group_011
+    2300194: Group_012
+    2300196: Group_013
+    2300198: Group_015
+    2300200: Group_017
+    2300202: Group_018
+    2300204: Group_019
+    2300206: Group_020
+    2300208: Group_021
+    2300210: Group_023
+    2300212: Group_025
+    2300214: Group_026
+    2300216: Group_027
+    2300218: Group_029
+    2300220: Group_030
+    2300222: Group_031
+    2300224: Group_032
+    2300226: Group_033
+    2300228: Group_034
+    2300230: Group_035
+    2300232: Group_036
+    2300234: Group_037
+    2300236: Group_038
+    2300238: Group_039
+    2300240: Group_041
+    2300242: Group_043
+    2300244: Group_045
+    2300246: Group_046
+    2300248: Group_047
+    2300250: Group_048
+    2300252: Group_049
+    2300254: Group_050
+    2300256: Group_051
+    2300258: Group_052
+    2300260: Group_053
+    2300262: Group_054
+    2300264: Group_055
+    2300266: Group_056
+    2300268: Group_057
+    2300270: Group_058
+    2300272: Group_059
+    2300274: Group_060
+    2300276: Group_061
+    2300278: Group_062
+    2300280: Group_063
+    2300282: Group_064
+    2300284: Group_065
+    2300286: Group_066
+    2300288: Group_067
+    2300290: Group_068
+    2300292: Group_069
+    2300294: Group_070
+    2300296: Group_071
+    2300298: Group_072
+    2300300: Group_073
+    2300302: Group_074
+    2300304: Group_075
+    2300306: Group_076
+    2300308: Group_077
+    2300310: Group_078
+    2300312: Group_079
+    2300314: Group_080
+    2300316: Group_081
+    2300318: Group_082
+    2300320: Group_083
+    3300000: Component#10_001
+    3300002: Component#10_002
+    3300004: Component#10_003
+    3300006: Component#10_004
+    3300008: Component#12_001
+    3300010: Component#12_002
+    3300012: Component#12_003
+    3300014: Component#12_004
+    3300016: Component#14_001
+    3300018: Component#14_002
+    3300020: Component#14_003
+    3300022: Component#18_001
+    3300024: Component#18_002
+    3300026: Component#19_001
+    3300028: Component#19_002
+    3300030: Component#1_001
+    3300032: Component#1_002
+    3300034: Component#1_003
+    3300036: Component#1_004
+    3300038: Component#1_005
+    3300040: Component#1_006
+    3300042: Component#1_007
+    3300044: Component#1_008
+    3300046: Component#1_009
+    3300048: Component#1_010
+    3300050: Component#1_011
+    3300052: Component#1_012
+    3300054: Component#1_013
+    3300056: Component#20_001
+    3300058: Component#20_003
+    3300060: Component#23_001
+    3300062: Component#23_002
+    3300064: Component#25_001
+    3300066: Component#25_002
+    3300068: Component#27_001
+    3300070: Component#27_002
+    3300072: Component#2_001
+    3300074: Component#31_001
+    3300076: Component#31_002
+    3300078: Component#31_003
+    3300080: Component#31_004
+    3300082: Component#33_001
+    3300084: Component#33_002
+    3300086: Component#33_003
+    3300088: Component#4_001
+    3300090: Component#4_002
+    3300092: Component#4_003
+    3300094: Component#4_004
+    3300096: Component#4_005
+    3300098: Component#4_006
+    3300100: Component#4_007
+    3300102: Component#4_008
+    3300104: Component#5_001
+    3300106: Component#5_002
+    3300108: Component#5_003
+    3300110: Component#5_004
+    3300112: Component#5_005
+    3300114: Component#5_006
+    3300116: Component#5_007
+    3300118: Component#5_008
+    3300120: Component#5_009
+    3300122: Component#5_010
+    3300124: Component#5_011
+    3300126: Component#5_012
+    3300128: Component#5_013
+    3300130: Component#5_014
+    3300132: Component#5_015
+    3300134: Component#5_016
+    3300136: Component#5_017
+    3300138: Component#5_018
+    3300140: Component#5_019
+    3300142: Component#5_020
+    3300144: Component#5_021
+    3300146: Component#5_022
+    3300148: Component#5_023
+    3300150: Component#5_024
+    3300152: Component#7_001
+    3300154: Component#7_002
+    3300156: Component#7_003
+    3300158: Component#8_001
+    3300160: Component#9_001
+    3300162: Component#9_002
+    3300164: Component#9_003
+    3300166: Component#9_004
+    3300168: Component#9_005
+    3300170: Component#9_006
+    3300172: Google Earth Snapshot_001
+    3300174: Google Earth Terrain_001
+    3300176: Group_001
+    3300178: Group_002
+    3300180: Group_003
+    3300182: Group_004
+    3300184: Group_005
+    3300186: Group_007
+    3300188: Group_009
+    3300190: Group_010
+    3300192: Group_011
+    3300194: Group_012
+    3300196: Group_013
+    3300198: Group_015
+    3300200: Group_017
+    3300202: Group_018
+    3300204: Group_019
+    3300206: Group_020
+    3300208: Group_021
+    3300210: Group_023
+    3300212: Group_025
+    3300214: Group_026
+    3300216: Group_027
+    3300218: Group_029
+    3300220: Group_030
+    3300222: Group_031
+    3300224: Group_032
+    3300226: Group_033
+    3300228: Group_034
+    3300230: Group_035
+    3300232: Group_036
+    3300234: Group_037
+    3300236: Group_038
+    3300238: Group_039
+    3300240: Group_041
+    3300242: Group_043
+    3300244: Group_045
+    3300246: Group_046
+    3300248: Group_047
+    3300250: Group_048
+    3300252: Group_049
+    3300254: Group_050
+    3300256: Group_051
+    3300258: Group_052
+    3300260: Group_053
+    3300262: Group_054
+    3300264: Group_055
+    3300266: Group_056
+    3300268: Group_057
+    3300270: Group_058
+    3300272: Group_059
+    3300274: Group_060
+    3300276: Group_061
+    3300278: Group_062
+    3300280: Group_063
+    3300282: Group_064
+    3300284: Group_065
+    3300286: Group_066
+    3300288: Group_067
+    3300290: Group_068
+    3300292: Group_069
+    3300294: Group_070
+    3300296: Group_071
+    3300298: Group_072
+    3300300: Group_073
+    3300302: Group_074
+    3300304: Group_075
+    3300306: Group_076
+    3300308: Group_077
+    3300310: Group_078
+    3300312: Group_079
+    3300314: Group_080
+    3300316: Group_081
+    3300318: Group_082
+    3300320: Group_083
+    4300000: Google Earth Terrain_001
+    4300002: Google Earth Snapshot_001
+    4300004: Group_001
+    4300006: Group_002
+    4300008: Group_003
+    4300010: Group_004
+    4300012: Group_005
+    4300014: Group_007
+    4300016: Group_009
+    4300018: Group_010
+    4300020: Group_011
+    4300022: Group_012
+    4300024: Group_013
+    4300026: Component#5_001
+    4300028: Component#5_002
+    4300030: Component#5_003
+    4300032: Component#4_001
+    4300034: Component#5_004
+    4300036: Component#5_005
+    4300038: Component#5_006
+    4300040: Component#4_002
+    4300042: Group_015
+    4300044: Component#1_001
+    4300046: Component#1_002
+    4300048: Component#1_003
+    4300050: Component#1_004
+    4300052: Component#1_005
+    4300054: Component#1_006
+    4300056: Component#1_007
+    4300058: Component#1_008
+    4300060: Component#1_009
+    4300062: Component#1_010
+    4300064: Component#1_011
+    4300066: Component#1_012
+    4300068: Component#1_013
+    4300070: Group_017
+    4300072: Group_018
+    4300074: Group_019
+    4300076: Group_020
+    4300078: Group_021
+    4300080: Component#12_001
+    4300082: Component#12_002
+    4300084: Component#12_003
+    4300086: Component#12_004
+    4300088: Component#14_001
+    4300090: Component#14_002
+    4300092: Component#14_003
+    4300094: Group_023
+    4300096: Group_025
+    4300098: Group_026
+    4300100: Group_027
+    4300102: Group_029
+    4300104: Group_030
+    4300106: Group_031
+    4300108: Group_032
+    4300110: Group_033
+    4300112: Group_034
+    4300114: Group_035
+    4300116: Group_036
+    4300118: Component#31_001
+    4300120: Component#31_002
+    4300122: Component#31_003
+    4300124: Component#31_004
+    4300126: Group_037
+    4300128: Group_038
+    4300130: Component#33_001
+    4300132: Group_039
+    4300134: Component#33_002
+    4300136: Group_041
+    4300138: Component#33_003
+    4300140: Group_043
+    4300142: Group_045
+    4300144: Group_046
+    4300146: Group_047
+    4300148: Group_048
+    4300150: Group_049
+    4300152: Component#7_001
+    4300154: Group_050
+    4300156: Group_051
+    4300158: Group_052
+    4300160: Component#5_007
+    4300162: Component#5_008
+    4300164: Component#5_009
+    4300166: Component#4_003
+    4300168: Component#5_010
+    4300170: Component#5_011
+    4300172: Component#5_012
+    4300174: Component#4_004
+    4300176: Group_053
+    4300178: Component#8_001
+    4300180: Group_054
+    4300182: Group_055
+    4300184: Group_056
+    4300186: Group_057
+    4300188: Component#9_001
+    4300190: Component#9_002
+    4300192: Component#9_003
+    4300194: Component#10_001
+    4300196: Component#10_002
+    4300198: Group_058
+    4300200: Group_059
+    4300202: Group_060
+    4300204: Group_061
+    4300206: Group_062
+    4300208: Group_063
+    4300210: Component#20_001
+    4300212: Component#18_001
+    4300214: Component#19_001
+    4300216: Component#7_002
+    4300218: Group_064
+    4300220: Group_065
+    4300222: Group_066
+    4300224: Component#5_013
+    4300226: Component#5_014
+    4300228: Component#5_015
+    4300230: Component#4_005
+    4300232: Component#5_016
+    4300234: Component#5_017
+    4300236: Component#5_018
+    4300238: Component#4_006
+    4300240: Group_067
+    4300242: Group_068
+    4300244: Component#27_001
+    4300246: Component#23_001
+    4300248: Component#25_001
+    4300250: Component#2_001
+    4300252: Group_069
+    4300254: Group_070
+    4300256: Group_071
+    4300258: Group_072
+    4300260: Component#9_004
+    4300262: Component#9_005
+    4300264: Component#9_006
+    4300266: Component#10_003
+    4300268: Component#10_004
+    4300270: Group_073
+    4300272: Group_074
+    4300274: Group_075
+    4300276: Group_076
+    4300278: Group_077
+    4300280: Group_078
+    4300282: Component#20_003
+    4300284: Component#18_002
+    4300286: Component#19_002
+    4300288: Component#7_003
+    4300290: Group_079
+    4300292: Group_080
+    4300294: Group_081
+    4300296: Component#5_019
+    4300298: Component#5_020
+    4300300: Component#5_021
+    4300302: Component#4_007
+    4300304: Component#5_022
+    4300306: Component#5_023
+    4300308: Component#5_024
+    4300310: Component#4_008
+    4300312: Group_082
+    4300314: Group_083
+    4300316: Component#27_002
+    4300318: Component#23_002
+    4300320: Component#25_002
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

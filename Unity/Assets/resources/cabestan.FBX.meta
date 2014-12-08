@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: dd25991955ebc9f4ea678411cd7f408c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: assemblage_1 1
+    100002: assemblage_1 10
+    100004: assemblage_1 11
+    100006: assemblage_1 2
+    100008: assemblage_1 3
+    100010: assemblage_1 4
+    100012: assemblage_1 5
+    100014: assemblage_1 6
+    100016: assemblage_1 7
+    100018: assemblage_1 8
+    100020: assemblage_1 9
+    100022: assemblage_1-DC_Brep
+    100024: assemblage_1-DC_Brep 1
+    100026: assemblage_1-DC_Brep 2
+    100028: assemblage_1-DC_Brep 3
+    100030: assemblage_1-DC_Brep 4
+    100032: barre_longue.1
+    100034: //RootNode
+    100036: Casbestan1.1
+    100038: CentreTrave.2
+    100040: Part1.2
+    100042: roue_14dents.1
+    100044: assemblage_1 12
+    100046: assemblage_1 13
+    100048: assemblage_1 14
+    100050: assemblage_1 15
+    100052: assemblage_1 16
+    100054: assemblage_1 17
+    100056: assemblage_1 18
+    100058: assemblage_1 19
+    100060: assemblage_1 20
+    100062: assemblage_1 21
+    100064: assemblage_1 22
+    100066: assemblage_1 23
+    100068: assemblage_1 24
+    100070: assemblage_1 25
+    100072: assemblage_1-DC_Brep 10
+    100074: assemblage_1-DC_Brep 11
+    100076: assemblage_1-DC_Brep 5
+    100078: assemblage_1-DC_Brep 6
+    100080: assemblage_1-DC_Brep 7
+    100082: assemblage_1-DC_Brep 8
+    100084: assemblage_1-DC_Brep 9
+    100086: piece3a.1
+    100088: roue.1
+    100090: Symmetry of barre_longue.1.1
+    100092: Symmetry of Casbestan1.1.1
+    100094: Symmetry of Part1.2.1
+    100096: Symmetry of roue.1.1
+    100098: Symmetry of roue_14dents.1.1
+    400000: assemblage_1 1
+    400002: assemblage_1 10
+    400004: assemblage_1 11
+    400006: assemblage_1 2
+    400008: assemblage_1 3
+    400010: assemblage_1 4
+    400012: assemblage_1 5
+    400014: assemblage_1 6
+    400016: assemblage_1 7
+    400018: assemblage_1 8
+    400020: assemblage_1 9
+    400022: assemblage_1-DC_Brep
+    400024: assemblage_1-DC_Brep 1
+    400026: assemblage_1-DC_Brep 2
+    400028: assemblage_1-DC_Brep 3
+    400030: assemblage_1-DC_Brep 4
+    400032: barre_longue.1
+    400034: //RootNode
+    400036: Casbestan1.1
+    400038: CentreTrave.2
+    400040: Part1.2
+    400042: roue_14dents.1
+    400044: assemblage_1 12
+    400046: assemblage_1 13
+    400048: assemblage_1 14
+    400050: assemblage_1 15
+    400052: assemblage_1 16
+    400054: assemblage_1 17
+    400056: assemblage_1 18
+    400058: assemblage_1 19
+    400060: assemblage_1 20
+    400062: assemblage_1 21
+    400064: assemblage_1 22
+    400066: assemblage_1 23
+    400068: assemblage_1 24
+    400070: assemblage_1 25
+    400072: assemblage_1-DC_Brep 10
+    400074: assemblage_1-DC_Brep 11
+    400076: assemblage_1-DC_Brep 5
+    400078: assemblage_1-DC_Brep 6
+    400080: assemblage_1-DC_Brep 7
+    400082: assemblage_1-DC_Brep 8
+    400084: assemblage_1-DC_Brep 9
+    400086: piece3a.1
+    400088: roue.1
+    400090: Symmetry of barre_longue.1.1
+    400092: Symmetry of Casbestan1.1.1
+    400094: Symmetry of Part1.2.1
+    400096: Symmetry of roue.1.1
+    400098: Symmetry of roue_14dents.1.1
+    2300000: assemblage_1-DC_Brep
+    2300002: assemblage_1-DC_Brep 1
+    2300004: assemblage_1-DC_Brep 2
+    2300006: assemblage_1-DC_Brep 3
+    2300008: assemblage_1-DC_Brep 4
+    2300010: assemblage_1-DC_Brep 10
+    2300012: assemblage_1-DC_Brep 11
+    2300014: assemblage_1-DC_Brep 5
+    2300016: assemblage_1-DC_Brep 6
+    2300018: assemblage_1-DC_Brep 7
+    2300020: assemblage_1-DC_Brep 8
+    2300022: assemblage_1-DC_Brep 9
+    3300000: assemblage_1-DC_Brep
+    3300002: assemblage_1-DC_Brep 1
+    3300004: assemblage_1-DC_Brep 2
+    3300006: assemblage_1-DC_Brep 3
+    3300008: assemblage_1-DC_Brep 4
+    3300010: assemblage_1-DC_Brep 10
+    3300012: assemblage_1-DC_Brep 11
+    3300014: assemblage_1-DC_Brep 5
+    3300016: assemblage_1-DC_Brep 6
+    3300018: assemblage_1-DC_Brep 7
+    3300020: assemblage_1-DC_Brep 8
+    3300022: assemblage_1-DC_Brep 9
+    4300000: assemblage_1-DC_Brep
+    4300002: assemblage_1-DC_Brep
+    4300004: assemblage_1-DC_Brep
+    4300006: assemblage_1-DC_Brep
+    4300008: assemblage_1-DC_Brep
+    4300010: assemblage_1-DC_Brep
+    4300012: assemblage_1-DC_Brep
+    4300014: assemblage_1-DC_Brep
+    4300016: assemblage_1-DC_Brep
+    4300018: assemblage_1-DC_Brep
+    4300020: assemblage_1-DC_Brep
+    4300022: assemblage_1-DC_Brep
+    6400000: assemblage_1-DC_Brep
+    6400002: assemblage_1-DC_Brep 1
+    6400004: assemblage_1-DC_Brep 2
+    6400006: assemblage_1-DC_Brep 3
+    6400008: assemblage_1-DC_Brep 4
+    6400010: assemblage_1-DC_Brep 10
+    6400012: assemblage_1-DC_Brep 11
+    6400014: assemblage_1-DC_Brep 5
+    6400016: assemblage_1-DC_Brep 6
+    6400018: assemblage_1-DC_Brep 7
+    6400020: assemblage_1-DC_Brep 8
+    6400022: assemblage_1-DC_Brep 9
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

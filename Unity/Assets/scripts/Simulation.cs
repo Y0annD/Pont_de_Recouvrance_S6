@@ -19,4 +19,10 @@ public class Simulation
     _panneau = new Panneau();
     _travee     = new Travee(); 
   }
+
+	public void running() {
+		if (_pause) {
+
+				}
+	}
 }

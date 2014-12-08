@@ -3,10 +3,10 @@ using System.Collections;
 
 public class Interact : MonoBehaviour {
 
-	public GUIText target;
+	public GUITexture gui;
 	public bool running = false;
 	//Enfant avec lequel intéragir
-	public Travee enfant;
+
 	private bool isLoocked = false;
 
 	// Use this for initialization
@@ -21,14 +21,14 @@ public class Interact : MonoBehaviour {
 	/*}*/
 
 	public void onLookEnter(){
-		/*renderer.material.color = Color.green;*/
-		target.text = "Appuyez sur E pour intéragir";
+		renderer.material.color = Color.green;
+		gui.enabled = true;
 		isLoocked = true;
 	}
 
 	public void onLookExit(){
 		/*renderer.material.color = Color.white;*/
-		target.text = "";
+		gui.enabled = false;
 		isLoocked = false;
 	}
 

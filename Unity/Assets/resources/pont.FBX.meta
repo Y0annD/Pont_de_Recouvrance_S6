@@ -1,0 +1,1110 @@
+fileFormatVersion: 2
+guid: c2f9a62aa13b65b4c95b343bf89f5d45
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cule.1
+    100002: Cule.2
+    100004: Culee
+    100006: Culee 1
+    100008: Pilier.1
+    100010: Pilier.2
+    100012: Pont
+    100014: //RootNode
+    100016: Pont 1
+    100018: Pont 10
+    100020: Pont 11
+    100022: Pont 12
+    100024: Pont 13
+    100026: Pont 2
+    100028: Pont 3
+    100030: Pont 4
+    100032: Pont 5
+    100034: Pont 6
+    100036: Pont 7
+    100038: Pont 8
+    100040: Pont 9
+    100042: Pont-DC_Brep
+    100044: Pont-DC_Brep 1
+    100046: Pont-DC_Brep 2
+    100048: Pont-DC_Brep 3
+    100050: Pont-DC_Brep 4
+    100052: Pont-DC_Brep 5
+    100054: Travee.3
+    100056: Travee.4
+    100058: Axe 2.1
+    100060: barre_longue.1
+    100062: Casbestan1.1
+    100064: CentreTrave.2
+    100066: Part1.2
+    100068: Part5.1
+    100070: Part6.1
+    100072: piece3a.1
+    100074: Product2
+    100076: roue.1
+    100078: roue_14dents.1
+    100080: Symmetry of barre_longue.1.1
+    100082: Symmetry of barre_longue.1.1 1
+    100084: Symmetry of Casbestan1.1.1
+    100086: Symmetry of Casbestan1.1.1 1
+    100088: Symmetry of CentreTrave.2.1
+    100090: Symmetry of Part1.2.1
+    100092: Symmetry of Part1.2.1 1
+    100094: Symmetry of Part5.1.1
+    100096: Symmetry of Part6.1.1
+    100098: Symmetry of piece3a.1.1
+    100100: Symmetry of Pilier.1.1
+    100102: Symmetry of Product2
+    100104: Symmetry of roue.1.1
+    100106: Symmetry of roue.1.1 1
+    100108: Symmetry of roue_14dents.1.1
+    100110: Symmetry of roue_14dents.1.1 1
+    100112: Symmetry of Symmetry of barre_longue.1.1.1
+    100114: Symmetry of Symmetry of Casbestan1.1.1.1
+    100116: Symmetry of Symmetry of Part1.2.1.1
+    100118: Symmetry of Symmetry of roue.1.1.1
+    100120: Symmetry of Symmetry of roue_14dents.1.1.1
+    100122: Symmetry of Trave03.1.1
+    100124: Symmetry of Trave04.1.1
+    100126: Symmetry of Trave05.1.1
+    100128: Symmetry of Trave06.1.1
+    100130: Symmetry of Trave07.1.1
+    100132: Symmetry of Trave08.1.1
+    100134: Symmetry of Trave09.1.1
+    100136: Symmetry of Trave10.1.1
+    100138: Symmetry of Trave11.1.1
+    100140: Symmetry of Trave12.1.1
+    100142: Symmetry of Trave13.1.1
+    100144: Symmetry of Trave14.1.1
+    100146: Symmetry of Trave15.1.1
+    100148: Symmetry of Trave16.1.1
+    100150: Symmetry of Trave17.2.1
+    100152: Symmetry of Trave18.1.1
+    100154: Symmetry of Trave18.2.1
+    100156: Symmetry of Trave18.3.1
+    100158: Symmetry of Trave21.1.2
+    100160: Symmetry of Verrou.1.1
+    100162: Symmetry of VERROU1.1.1
+    100164: Symmetry of VisSansFin.1.1
+    100166: Trave01.1
+    100168: Trave02.1
+    100170: Trave03.1
+    100172: Trave04.1
+    100174: Trave05.1
+    100176: Trave06.1
+    100178: Trave07.1
+    100180: Trave08.1
+    100182: Trave09.1
+    100184: Trave10.1
+    100186: Trave11.1
+    100188: Trave12.1
+    100190: Trave13.1
+    100192: Trave14.1
+    100194: Trave15.1
+    100196: Trave16.1
+    100198: Trave17.2
+    100200: Trave18.1
+    100202: Trave18.2
+    100204: Trave18.3
+    100206: Trave21.1
+    100208: Travee00 1
+    100210: Travee00 10
+    100212: Travee00 100
+    100214: Travee00 101
+    100216: Travee00 102
+    100218: Travee00 103
+    100220: Travee00 104
+    100222: Travee00 105
+    100224: Travee00 106
+    100226: Travee00 107
+    100228: Travee00 108
+    100230: Travee00 109
+    100232: Travee00 11
+    100234: Travee00 110
+    100236: Travee00 111
+    100238: Travee00 112
+    100240: Travee00 113
+    100242: Travee00 114
+    100244: Travee00 115
+    100246: Travee00 116
+    100248: Travee00 117
+    100250: Travee00 118
+    100252: Travee00 119
+    100254: Travee00 12
+    100256: Travee00 120
+    100258: Travee00 121
+    100260: Travee00 122
+    100262: Travee00 123
+    100264: Travee00 124
+    100266: Travee00 125
+    100268: Travee00 126
+    100270: Travee00 127
+    100272: Travee00 128
+    100274: Travee00 129
+    100276: Travee00 13
+    100278: Travee00 130
+    100280: Travee00 131
+    100282: Travee00 132
+    100284: Travee00 133
+    100286: Travee00 134
+    100288: Travee00 135
+    100290: Travee00 136
+    100292: Travee00 137
+    100294: Travee00 138
+    100296: Travee00 139
+    100298: Travee00 14
+    100300: Travee00 140
+    100302: Travee00 141
+    100304: Travee00 142
+    100306: Travee00 143
+    100308: Travee00 144
+    100310: Travee00 145
+    100312: Travee00 146
+    100314: Travee00 147
+    100316: Travee00 148
+    100318: Travee00 149
+    100320: Travee00 15
+    100322: Travee00 150
+    100324: Travee00 151
+    100326: Travee00 152
+    100328: Travee00 153
+    100330: Travee00 154
+    100332: Travee00 155
+    100334: Travee00 156
+    100336: Travee00 157
+    100338: Travee00 158
+    100340: Travee00 159
+    100342: Travee00 16
+    100344: Travee00 160
+    100346: Travee00 161
+    100348: Travee00 17
+    100350: Travee00 18
+    100352: Travee00 19
+    100354: Travee00 2
+    100356: Travee00 20
+    100358: Travee00 21
+    100360: Travee00 22
+    100362: Travee00 23
+    100364: Travee00 24
+    100366: Travee00 25
+    100368: Travee00 26
+    100370: Travee00 27
+    100372: Travee00 28
+    100374: Travee00 29
+    100376: Travee00 3
+    100378: Travee00 30
+    100380: Travee00 31
+    100382: Travee00 32
+    100384: Travee00 33
+    100386: Travee00 34
+    100388: Travee00 35
+    100390: Travee00 36
+    100392: Travee00 37
+    100394: Travee00 38
+    100396: Travee00 39
+    100398: Travee00 4
+    100400: Travee00 40
+    100402: Travee00 41
+    100404: Travee00 42
+    100406: Travee00 43
+    100408: Travee00 44
+    100410: Travee00 45
+    100412: Travee00 46
+    100414: Travee00 47
+    100416: Travee00 48
+    100418: Travee00 49
+    100420: Travee00 5
+    100422: Travee00 50
+    100424: Travee00 51
+    100426: Travee00 52
+    100428: Travee00 53
+    100430: Travee00 54
+    100432: Travee00 55
+    100434: Travee00 56
+    100436: Travee00 57
+    100438: Travee00 58
+    100440: Travee00 59
+    100442: Travee00 6
+    100444: Travee00 60
+    100446: Travee00 61
+    100448: Travee00 62
+    100450: Travee00 63
+    100452: Travee00 64
+    100454: Travee00 65
+    100456: Travee00 66
+    100458: Travee00 67
+    100460: Travee00 68
+    100462: Travee00 69
+    100464: Travee00 7
+    100466: Travee00 70
+    100468: Travee00 71
+    100470: Travee00 72
+    100472: Travee00 73
+    100474: Travee00 74
+    100476: Travee00 75
+    100478: Travee00 76
+    100480: Travee00 77
+    100482: Travee00 78
+    100484: Travee00 79
+    100486: Travee00 8
+    100488: Travee00 80
+    100490: Travee00 81
+    100492: Travee00 82
+    100494: Travee00 83
+    100496: Travee00 84
+    100498: Travee00 85
+    100500: Travee00 86
+    100502: Travee00 87
+    100504: Travee00 88
+    100506: Travee00 89
+    100508: Travee00 9
+    100510: Travee00 90
+    100512: Travee00 91
+    100514: Travee00 92
+    100516: Travee00 93
+    100518: Travee00 94
+    100520: Travee00 95
+    100522: Travee00 96
+    100524: Travee00 97
+    100526: Travee00 98
+    100528: Travee00 99
+    100530: Travee00-DC_Brep
+    100532: Travee00-DC_Brep 1
+    100534: Travee00-DC_Brep 10
+    100536: Travee00-DC_Brep 11
+    100538: Travee00-DC_Brep 12
+    100540: Travee00-DC_Brep 13
+    100542: Travee00-DC_Brep 14
+    100544: Travee00-DC_Brep 15
+    100546: Travee00-DC_Brep 16
+    100548: Travee00-DC_Brep 17
+    100550: Travee00-DC_Brep 18
+    100552: Travee00-DC_Brep 19
+    100554: Travee00-DC_Brep 2
+    100556: Travee00-DC_Brep 20
+    100558: Travee00-DC_Brep 21
+    100560: Travee00-DC_Brep 22
+    100562: Travee00-DC_Brep 23
+    100564: Travee00-DC_Brep 24
+    100566: Travee00-DC_Brep 25
+    100568: Travee00-DC_Brep 26
+    100570: Travee00-DC_Brep 27
+    100572: Travee00-DC_Brep 28
+    100574: Travee00-DC_Brep 29
+    100576: Travee00-DC_Brep 3
+    100578: Travee00-DC_Brep 30
+    100580: Travee00-DC_Brep 31
+    100582: Travee00-DC_Brep 32
+    100584: Travee00-DC_Brep 33
+    100586: Travee00-DC_Brep 34
+    100588: Travee00-DC_Brep 35
+    100590: Travee00-DC_Brep 36
+    100592: Travee00-DC_Brep 37
+    100594: Travee00-DC_Brep 38
+    100596: Travee00-DC_Brep 39
+    100598: Travee00-DC_Brep 4
+    100600: Travee00-DC_Brep 40
+    100602: Travee00-DC_Brep 41
+    100604: Travee00-DC_Brep 42
+    100606: Travee00-DC_Brep 43
+    100608: Travee00-DC_Brep 44
+    100610: Travee00-DC_Brep 45
+    100612: Travee00-DC_Brep 46
+    100614: Travee00-DC_Brep 47
+    100616: Travee00-DC_Brep 48
+    100618: Travee00-DC_Brep 49
+    100620: Travee00-DC_Brep 5
+    100622: Travee00-DC_Brep 50
+    100624: Travee00-DC_Brep 51
+    100626: Travee00-DC_Brep 52
+    100628: Travee00-DC_Brep 53
+    100630: Travee00-DC_Brep 54
+    100632: Travee00-DC_Brep 55
+    100634: Travee00-DC_Brep 56
+    100636: Travee00-DC_Brep 57
+    100638: Travee00-DC_Brep 58
+    100640: Travee00-DC_Brep 59
+    100642: Travee00-DC_Brep 6
+    100644: Travee00-DC_Brep 60
+    100646: Travee00-DC_Brep 61
+    100648: Travee00-DC_Brep 62
+    100650: Travee00-DC_Brep 63
+    100652: Travee00-DC_Brep 64
+    100654: Travee00-DC_Brep 65
+    100656: Travee00-DC_Brep 66
+    100658: Travee00-DC_Brep 67
+    100660: Travee00-DC_Brep 68
+    100662: Travee00-DC_Brep 69
+    100664: Travee00-DC_Brep 7
+    100666: Travee00-DC_Brep 70
+    100668: Travee00-DC_Brep 71
+    100670: Travee00-DC_Brep 72
+    100672: Travee00-DC_Brep 73
+    100674: Travee00-DC_Brep 74
+    100676: Travee00-DC_Brep 75
+    100678: Travee00-DC_Brep 76
+    100680: Travee00-DC_Brep 77
+    100682: Travee00-DC_Brep 78
+    100684: Travee00-DC_Brep 8
+    100686: Travee00-DC_Brep 9
+    100688: Travee00-DC_Point
+    100690: Travee00-DC_Point 1
+    100692: Travee00-DC_Point 2
+    100694: Travee00-DC_Point 3
+    100696: Travee00-DC_Point 4
+    100698: Travee00-DC_Point 5
+    100700: Travee00-DC_Point 6
+    100702: Verrou
+    100704: Verrou.1
+    100706: VERROU1.1
+    100708: VisSansFin.1
+    400000: Cule.1
+    400002: Cule.2
+    400004: Culee
+    400006: Culee 1
+    400008: Pilier.1
+    400010: Pilier.2
+    400012: Pont
+    400014: //RootNode
+    400016: Pont 1
+    400018: Pont 10
+    400020: Pont 11
+    400022: Pont 12
+    400024: Pont 13
+    400026: Pont 2
+    400028: Pont 3
+    400030: Pont 4
+    400032: Pont 5
+    400034: Pont 6
+    400036: Pont 7
+    400038: Pont 8
+    400040: Pont 9
+    400042: Pont-DC_Brep
+    400044: Pont-DC_Brep 1
+    400046: Pont-DC_Brep 2
+    400048: Pont-DC_Brep 3
+    400050: Pont-DC_Brep 4
+    400052: Pont-DC_Brep 5
+    400054: Travee.3
+    400056: Travee.4
+    400058: Axe 2.1
+    400060: barre_longue.1
+    400062: Casbestan1.1
+    400064: CentreTrave.2
+    400066: Part1.2
+    400068: Part5.1
+    400070: Part6.1
+    400072: piece3a.1
+    400074: Product2
+    400076: roue.1
+    400078: roue_14dents.1
+    400080: Symmetry of barre_longue.1.1
+    400082: Symmetry of barre_longue.1.1 1
+    400084: Symmetry of Casbestan1.1.1
+    400086: Symmetry of Casbestan1.1.1 1
+    400088: Symmetry of CentreTrave.2.1
+    400090: Symmetry of Part1.2.1
+    400092: Symmetry of Part1.2.1 1
+    400094: Symmetry of Part5.1.1
+    400096: Symmetry of Part6.1.1
+    400098: Symmetry of piece3a.1.1
+    400100: Symmetry of Pilier.1.1
+    400102: Symmetry of Product2
+    400104: Symmetry of roue.1.1
+    400106: Symmetry of roue.1.1 1
+    400108: Symmetry of roue_14dents.1.1
+    400110: Symmetry of roue_14dents.1.1 1
+    400112: Symmetry of Symmetry of barre_longue.1.1.1
+    400114: Symmetry of Symmetry of Casbestan1.1.1.1
+    400116: Symmetry of Symmetry of Part1.2.1.1
+    400118: Symmetry of Symmetry of roue.1.1.1
+    400120: Symmetry of Symmetry of roue_14dents.1.1.1
+    400122: Symmetry of Trave03.1.1
+    400124: Symmetry of Trave04.1.1
+    400126: Symmetry of Trave05.1.1
+    400128: Symmetry of Trave06.1.1
+    400130: Symmetry of Trave07.1.1
+    400132: Symmetry of Trave08.1.1
+    400134: Symmetry of Trave09.1.1
+    400136: Symmetry of Trave10.1.1
+    400138: Symmetry of Trave11.1.1
+    400140: Symmetry of Trave12.1.1
+    400142: Symmetry of Trave13.1.1
+    400144: Symmetry of Trave14.1.1
+    400146: Symmetry of Trave15.1.1
+    400148: Symmetry of Trave16.1.1
+    400150: Symmetry of Trave17.2.1
+    400152: Symmetry of Trave18.1.1
+    400154: Symmetry of Trave18.2.1
+    400156: Symmetry of Trave18.3.1
+    400158: Symmetry of Trave21.1.2
+    400160: Symmetry of Verrou.1.1
+    400162: Symmetry of VERROU1.1.1
+    400164: Symmetry of VisSansFin.1.1
+    400166: Trave01.1
+    400168: Trave02.1
+    400170: Trave03.1
+    400172: Trave04.1
+    400174: Trave05.1
+    400176: Trave06.1
+    400178: Trave07.1
+    400180: Trave08.1
+    400182: Trave09.1
+    400184: Trave10.1
+    400186: Trave11.1
+    400188: Trave12.1
+    400190: Trave13.1
+    400192: Trave14.1
+    400194: Trave15.1
+    400196: Trave16.1
+    400198: Trave17.2
+    400200: Trave18.1
+    400202: Trave18.2
+    400204: Trave18.3
+    400206: Trave21.1
+    400208: Travee00 1
+    400210: Travee00 10
+    400212: Travee00 100
+    400214: Travee00 101
+    400216: Travee00 102
+    400218: Travee00 103
+    400220: Travee00 104
+    400222: Travee00 105
+    400224: Travee00 106
+    400226: Travee00 107
+    400228: Travee00 108
+    400230: Travee00 109
+    400232: Travee00 11
+    400234: Travee00 110
+    400236: Travee00 111
+    400238: Travee00 112
+    400240: Travee00 113
+    400242: Travee00 114
+    400244: Travee00 115
+    400246: Travee00 116
+    400248: Travee00 117
+    400250: Travee00 118
+    400252: Travee00 119
+    400254: Travee00 12
+    400256: Travee00 120
+    400258: Travee00 121
+    400260: Travee00 122
+    400262: Travee00 123
+    400264: Travee00 124
+    400266: Travee00 125
+    400268: Travee00 126
+    400270: Travee00 127
+    400272: Travee00 128
+    400274: Travee00 129
+    400276: Travee00 13
+    400278: Travee00 130
+    400280: Travee00 131
+    400282: Travee00 132
+    400284: Travee00 133
+    400286: Travee00 134
+    400288: Travee00 135
+    400290: Travee00 136
+    400292: Travee00 137
+    400294: Travee00 138
+    400296: Travee00 139
+    400298: Travee00 14
+    400300: Travee00 140
+    400302: Travee00 141
+    400304: Travee00 142
+    400306: Travee00 143
+    400308: Travee00 144
+    400310: Travee00 145
+    400312: Travee00 146
+    400314: Travee00 147
+    400316: Travee00 148
+    400318: Travee00 149
+    400320: Travee00 15
+    400322: Travee00 150
+    400324: Travee00 151
+    400326: Travee00 152
+    400328: Travee00 153
+    400330: Travee00 154
+    400332: Travee00 155
+    400334: Travee00 156
+    400336: Travee00 157
+    400338: Travee00 158
+    400340: Travee00 159
+    400342: Travee00 16
+    400344: Travee00 160
+    400346: Travee00 161
+    400348: Travee00 17
+    400350: Travee00 18
+    400352: Travee00 19
+    400354: Travee00 2
+    400356: Travee00 20
+    400358: Travee00 21
+    400360: Travee00 22
+    400362: Travee00 23
+    400364: Travee00 24
+    400366: Travee00 25
+    400368: Travee00 26
+    400370: Travee00 27
+    400372: Travee00 28
+    400374: Travee00 29
+    400376: Travee00 3
+    400378: Travee00 30
+    400380: Travee00 31
+    400382: Travee00 32
+    400384: Travee00 33
+    400386: Travee00 34
+    400388: Travee00 35
+    400390: Travee00 36
+    400392: Travee00 37
+    400394: Travee00 38
+    400396: Travee00 39
+    400398: Travee00 4
+    400400: Travee00 40
+    400402: Travee00 41
+    400404: Travee00 42
+    400406: Travee00 43
+    400408: Travee00 44
+    400410: Travee00 45
+    400412: Travee00 46
+    400414: Travee00 47
+    400416: Travee00 48
+    400418: Travee00 49
+    400420: Travee00 5
+    400422: Travee00 50
+    400424: Travee00 51
+    400426: Travee00 52
+    400428: Travee00 53
+    400430: Travee00 54
+    400432: Travee00 55
+    400434: Travee00 56
+    400436: Travee00 57
+    400438: Travee00 58
+    400440: Travee00 59
+    400442: Travee00 6
+    400444: Travee00 60
+    400446: Travee00 61
+    400448: Travee00 62
+    400450: Travee00 63
+    400452: Travee00 64
+    400454: Travee00 65
+    400456: Travee00 66
+    400458: Travee00 67
+    400460: Travee00 68
+    400462: Travee00 69
+    400464: Travee00 7
+    400466: Travee00 70
+    400468: Travee00 71
+    400470: Travee00 72
+    400472: Travee00 73
+    400474: Travee00 74
+    400476: Travee00 75
+    400478: Travee00 76
+    400480: Travee00 77
+    400482: Travee00 78
+    400484: Travee00 79
+    400486: Travee00 8
+    400488: Travee00 80
+    400490: Travee00 81
+    400492: Travee00 82
+    400494: Travee00 83
+    400496: Travee00 84
+    400498: Travee00 85
+    400500: Travee00 86
+    400502: Travee00 87
+    400504: Travee00 88
+    400506: Travee00 89
+    400508: Travee00 9
+    400510: Travee00 90
+    400512: Travee00 91
+    400514: Travee00 92
+    400516: Travee00 93
+    400518: Travee00 94
+    400520: Travee00 95
+    400522: Travee00 96
+    400524: Travee00 97
+    400526: Travee00 98
+    400528: Travee00 99
+    400530: Travee00-DC_Brep
+    400532: Travee00-DC_Brep 1
+    400534: Travee00-DC_Brep 10
+    400536: Travee00-DC_Brep 11
+    400538: Travee00-DC_Brep 12
+    400540: Travee00-DC_Brep 13
+    400542: Travee00-DC_Brep 14
+    400544: Travee00-DC_Brep 15
+    400546: Travee00-DC_Brep 16
+    400548: Travee00-DC_Brep 17
+    400550: Travee00-DC_Brep 18
+    400552: Travee00-DC_Brep 19
+    400554: Travee00-DC_Brep 2
+    400556: Travee00-DC_Brep 20
+    400558: Travee00-DC_Brep 21
+    400560: Travee00-DC_Brep 22
+    400562: Travee00-DC_Brep 23
+    400564: Travee00-DC_Brep 24
+    400566: Travee00-DC_Brep 25
+    400568: Travee00-DC_Brep 26
+    400570: Travee00-DC_Brep 27
+    400572: Travee00-DC_Brep 28
+    400574: Travee00-DC_Brep 29
+    400576: Travee00-DC_Brep 3
+    400578: Travee00-DC_Brep 30
+    400580: Travee00-DC_Brep 31
+    400582: Travee00-DC_Brep 32
+    400584: Travee00-DC_Brep 33
+    400586: Travee00-DC_Brep 34
+    400588: Travee00-DC_Brep 35
+    400590: Travee00-DC_Brep 36
+    400592: Travee00-DC_Brep 37
+    400594: Travee00-DC_Brep 38
+    400596: Travee00-DC_Brep 39
+    400598: Travee00-DC_Brep 4
+    400600: Travee00-DC_Brep 40
+    400602: Travee00-DC_Brep 41
+    400604: Travee00-DC_Brep 42
+    400606: Travee00-DC_Brep 43
+    400608: Travee00-DC_Brep 44
+    400610: Travee00-DC_Brep 45
+    400612: Travee00-DC_Brep 46
+    400614: Travee00-DC_Brep 47
+    400616: Travee00-DC_Brep 48
+    400618: Travee00-DC_Brep 49
+    400620: Travee00-DC_Brep 5
+    400622: Travee00-DC_Brep 50
+    400624: Travee00-DC_Brep 51
+    400626: Travee00-DC_Brep 52
+    400628: Travee00-DC_Brep 53
+    400630: Travee00-DC_Brep 54
+    400632: Travee00-DC_Brep 55
+    400634: Travee00-DC_Brep 56
+    400636: Travee00-DC_Brep 57
+    400638: Travee00-DC_Brep 58
+    400640: Travee00-DC_Brep 59
+    400642: Travee00-DC_Brep 6
+    400644: Travee00-DC_Brep 60
+    400646: Travee00-DC_Brep 61
+    400648: Travee00-DC_Brep 62
+    400650: Travee00-DC_Brep 63
+    400652: Travee00-DC_Brep 64
+    400654: Travee00-DC_Brep 65
+    400656: Travee00-DC_Brep 66
+    400658: Travee00-DC_Brep 67
+    400660: Travee00-DC_Brep 68
+    400662: Travee00-DC_Brep 69
+    400664: Travee00-DC_Brep 7
+    400666: Travee00-DC_Brep 70
+    400668: Travee00-DC_Brep 71
+    400670: Travee00-DC_Brep 72
+    400672: Travee00-DC_Brep 73
+    400674: Travee00-DC_Brep 74
+    400676: Travee00-DC_Brep 75
+    400678: Travee00-DC_Brep 76
+    400680: Travee00-DC_Brep 77
+    400682: Travee00-DC_Brep 78
+    400684: Travee00-DC_Brep 8
+    400686: Travee00-DC_Brep 9
+    400688: Travee00-DC_Point
+    400690: Travee00-DC_Point 1
+    400692: Travee00-DC_Point 2
+    400694: Travee00-DC_Point 3
+    400696: Travee00-DC_Point 4
+    400698: Travee00-DC_Point 5
+    400700: Travee00-DC_Point 6
+    400702: Verrou
+    400704: Verrou.1
+    400706: VERROU1.1
+    400708: VisSansFin.1
+    2300000: Pont-DC_Brep
+    2300002: Pont-DC_Brep 1
+    2300004: Pont-DC_Brep 2
+    2300006: Pont-DC_Brep 3
+    2300008: Pont-DC_Brep 4
+    2300010: Pont-DC_Brep 5
+    2300012: Travee00-DC_Brep
+    2300014: Travee00-DC_Brep 1
+    2300016: Travee00-DC_Brep 10
+    2300018: Travee00-DC_Brep 11
+    2300020: Travee00-DC_Brep 12
+    2300022: Travee00-DC_Brep 13
+    2300024: Travee00-DC_Brep 14
+    2300026: Travee00-DC_Brep 15
+    2300028: Travee00-DC_Brep 16
+    2300030: Travee00-DC_Brep 17
+    2300032: Travee00-DC_Brep 18
+    2300034: Travee00-DC_Brep 19
+    2300036: Travee00-DC_Brep 2
+    2300038: Travee00-DC_Brep 20
+    2300040: Travee00-DC_Brep 21
+    2300042: Travee00-DC_Brep 22
+    2300044: Travee00-DC_Brep 23
+    2300046: Travee00-DC_Brep 24
+    2300048: Travee00-DC_Brep 25
+    2300050: Travee00-DC_Brep 26
+    2300052: Travee00-DC_Brep 27
+    2300054: Travee00-DC_Brep 28
+    2300056: Travee00-DC_Brep 29
+    2300058: Travee00-DC_Brep 3
+    2300060: Travee00-DC_Brep 30
+    2300062: Travee00-DC_Brep 31
+    2300064: Travee00-DC_Brep 32
+    2300066: Travee00-DC_Brep 33
+    2300068: Travee00-DC_Brep 34
+    2300070: Travee00-DC_Brep 35
+    2300072: Travee00-DC_Brep 36
+    2300074: Travee00-DC_Brep 37
+    2300076: Travee00-DC_Brep 38
+    2300078: Travee00-DC_Brep 39
+    2300080: Travee00-DC_Brep 4
+    2300082: Travee00-DC_Brep 40
+    2300084: Travee00-DC_Brep 41
+    2300086: Travee00-DC_Brep 42
+    2300088: Travee00-DC_Brep 43
+    2300090: Travee00-DC_Brep 44
+    2300092: Travee00-DC_Brep 45
+    2300094: Travee00-DC_Brep 46
+    2300096: Travee00-DC_Brep 47
+    2300098: Travee00-DC_Brep 48
+    2300100: Travee00-DC_Brep 49
+    2300102: Travee00-DC_Brep 5
+    2300104: Travee00-DC_Brep 50
+    2300106: Travee00-DC_Brep 51
+    2300108: Travee00-DC_Brep 52
+    2300110: Travee00-DC_Brep 53
+    2300112: Travee00-DC_Brep 54
+    2300114: Travee00-DC_Brep 55
+    2300116: Travee00-DC_Brep 56
+    2300118: Travee00-DC_Brep 57
+    2300120: Travee00-DC_Brep 58
+    2300122: Travee00-DC_Brep 59
+    2300124: Travee00-DC_Brep 6
+    2300126: Travee00-DC_Brep 60
+    2300128: Travee00-DC_Brep 61
+    2300130: Travee00-DC_Brep 62
+    2300132: Travee00-DC_Brep 63
+    2300134: Travee00-DC_Brep 64
+    2300136: Travee00-DC_Brep 65
+    2300138: Travee00-DC_Brep 66
+    2300140: Travee00-DC_Brep 67
+    2300142: Travee00-DC_Brep 68
+    2300144: Travee00-DC_Brep 69
+    2300146: Travee00-DC_Brep 7
+    2300148: Travee00-DC_Brep 70
+    2300150: Travee00-DC_Brep 71
+    2300152: Travee00-DC_Brep 72
+    2300154: Travee00-DC_Brep 73
+    2300156: Travee00-DC_Brep 74
+    2300158: Travee00-DC_Brep 75
+    2300160: Travee00-DC_Brep 76
+    2300162: Travee00-DC_Brep 77
+    2300164: Travee00-DC_Brep 78
+    2300166: Travee00-DC_Brep 8
+    2300168: Travee00-DC_Brep 9
+    3300000: Pont-DC_Brep
+    3300002: Pont-DC_Brep 1
+    3300004: Pont-DC_Brep 2
+    3300006: Pont-DC_Brep 3
+    3300008: Pont-DC_Brep 4
+    3300010: Pont-DC_Brep 5
+    3300012: Travee00-DC_Brep
+    3300014: Travee00-DC_Brep 1
+    3300016: Travee00-DC_Brep 10
+    3300018: Travee00-DC_Brep 11
+    3300020: Travee00-DC_Brep 12
+    3300022: Travee00-DC_Brep 13
+    3300024: Travee00-DC_Brep 14
+    3300026: Travee00-DC_Brep 15
+    3300028: Travee00-DC_Brep 16
+    3300030: Travee00-DC_Brep 17
+    3300032: Travee00-DC_Brep 18
+    3300034: Travee00-DC_Brep 19
+    3300036: Travee00-DC_Brep 2
+    3300038: Travee00-DC_Brep 20
+    3300040: Travee00-DC_Brep 21
+    3300042: Travee00-DC_Brep 22
+    3300044: Travee00-DC_Brep 23
+    3300046: Travee00-DC_Brep 24
+    3300048: Travee00-DC_Brep 25
+    3300050: Travee00-DC_Brep 26
+    3300052: Travee00-DC_Brep 27
+    3300054: Travee00-DC_Brep 28
+    3300056: Travee00-DC_Brep 29
+    3300058: Travee00-DC_Brep 3
+    3300060: Travee00-DC_Brep 30
+    3300062: Travee00-DC_Brep 31
+    3300064: Travee00-DC_Brep 32
+    3300066: Travee00-DC_Brep 33
+    3300068: Travee00-DC_Brep 34
+    3300070: Travee00-DC_Brep 35
+    3300072: Travee00-DC_Brep 36
+    3300074: Travee00-DC_Brep 37
+    3300076: Travee00-DC_Brep 38
+    3300078: Travee00-DC_Brep 39
+    3300080: Travee00-DC_Brep 4
+    3300082: Travee00-DC_Brep 40
+    3300084: Travee00-DC_Brep 41
+    3300086: Travee00-DC_Brep 42
+    3300088: Travee00-DC_Brep 43
+    3300090: Travee00-DC_Brep 44
+    3300092: Travee00-DC_Brep 45
+    3300094: Travee00-DC_Brep 46
+    3300096: Travee00-DC_Brep 47
+    3300098: Travee00-DC_Brep 48
+    3300100: Travee00-DC_Brep 49
+    3300102: Travee00-DC_Brep 5
+    3300104: Travee00-DC_Brep 50
+    3300106: Travee00-DC_Brep 51
+    3300108: Travee00-DC_Brep 52
+    3300110: Travee00-DC_Brep 53
+    3300112: Travee00-DC_Brep 54
+    3300114: Travee00-DC_Brep 55
+    3300116: Travee00-DC_Brep 56
+    3300118: Travee00-DC_Brep 57
+    3300120: Travee00-DC_Brep 58
+    3300122: Travee00-DC_Brep 59
+    3300124: Travee00-DC_Brep 6
+    3300126: Travee00-DC_Brep 60
+    3300128: Travee00-DC_Brep 61
+    3300130: Travee00-DC_Brep 62
+    3300132: Travee00-DC_Brep 63
+    3300134: Travee00-DC_Brep 64
+    3300136: Travee00-DC_Brep 65
+    3300138: Travee00-DC_Brep 66
+    3300140: Travee00-DC_Brep 67
+    3300142: Travee00-DC_Brep 68
+    3300144: Travee00-DC_Brep 69
+    3300146: Travee00-DC_Brep 7
+    3300148: Travee00-DC_Brep 70
+    3300150: Travee00-DC_Brep 71
+    3300152: Travee00-DC_Brep 72
+    3300154: Travee00-DC_Brep 73
+    3300156: Travee00-DC_Brep 74
+    3300158: Travee00-DC_Brep 75
+    3300160: Travee00-DC_Brep 76
+    3300162: Travee00-DC_Brep 77
+    3300164: Travee00-DC_Brep 78
+    3300166: Travee00-DC_Brep 8
+    3300168: Travee00-DC_Brep 9
+    4300000: Pont-DC_Brep
+    4300002: Pont-DC_Brep
+    4300004: Pont-DC_Brep
+    4300006: Pont-DC_Brep
+    4300008: Pont-DC_Brep
+    4300010: Pont-DC_Brep
+    4300012: Travee00-DC_Brep
+    4300014: Travee00-DC_Brep
+    4300016: Travee00-DC_Brep
+    4300018: Travee00-DC_Brep
+    4300020: Travee00-DC_Brep
+    4300022: Travee00-DC_Brep
+    4300024: Travee00-DC_Brep
+    4300026: Travee00-DC_Brep
+    4300028: Travee00-DC_Brep
+    4300030: Travee00-DC_Brep
+    4300032: Travee00-DC_Brep
+    4300034: Travee00-DC_Brep
+    4300036: Travee00-DC_Brep
+    4300038: Travee00-DC_Brep
+    4300040: Travee00-DC_Brep
+    4300042: Travee00-DC_Brep
+    4300044: Travee00-DC_Brep
+    4300046: Travee00-DC_Brep
+    4300048: Travee00-DC_Brep
+    4300050: Travee00-DC_Brep
+    4300052: Travee00-DC_Brep
+    4300054: Travee00-DC_Brep
+    4300056: Travee00-DC_Brep
+    4300058: Travee00-DC_Brep
+    4300060: Travee00-DC_Brep
+    4300062: Travee00-DC_Brep
+    4300064: Travee00-DC_Brep
+    4300066: Travee00-DC_Brep
+    4300068: Travee00-DC_Brep
+    4300070: Travee00-DC_Brep
+    4300072: Travee00-DC_Brep
+    4300074: Travee00-DC_Brep
+    4300076: Travee00-DC_Brep
+    4300078: Travee00-DC_Brep
+    4300080: Travee00-DC_Brep
+    4300082: Travee00-DC_Brep
+    4300084: Travee00-DC_Brep
+    4300086: Travee00-DC_Brep
+    4300088: Travee00-DC_Brep
+    4300090: Travee00-DC_Brep
+    4300092: Travee00-DC_Brep
+    4300094: Travee00-DC_Brep
+    4300096: Travee00-DC_Brep
+    4300098: Travee00-DC_Brep
+    4300100: Travee00-DC_Brep
+    4300102: Travee00-DC_Brep
+    4300104: Travee00-DC_Brep
+    4300106: Travee00-DC_Brep
+    4300108: Travee00-DC_Brep
+    4300110: Travee00-DC_Brep
+    4300112: Travee00-DC_Brep
+    4300114: Travee00-DC_Brep
+    4300116: Travee00-DC_Brep
+    4300118: Travee00-DC_Brep
+    4300120: Travee00-DC_Brep
+    4300122: Travee00-DC_Brep
+    4300124: Travee00-DC_Brep
+    4300126: Travee00-DC_Brep
+    4300128: Travee00-DC_Brep
+    4300130: Travee00-DC_Brep
+    4300132: Travee00-DC_Brep
+    4300134: Travee00-DC_Brep
+    4300136: Travee00-DC_Brep
+    4300138: Travee00-DC_Brep
+    4300140: Travee00-DC_Brep
+    4300142: Travee00-DC_Brep
+    4300144: Travee00-DC_Brep
+    4300146: Travee00-DC_Brep
+    4300148: Travee00-DC_Brep
+    4300150: Travee00-DC_Brep
+    4300152: Travee00-DC_Brep
+    4300154: Travee00-DC_Brep
+    4300156: Travee00-DC_Brep
+    4300158: Travee00-DC_Brep
+    4300160: Travee00-DC_Brep
+    4300162: Travee00-DC_Brep
+    4300164: Travee00-DC_Brep
+    4300166: Travee00-DC_Brep
+    4300168: Travee00-DC_Brep
+    6400000: Pont-DC_Brep
+    6400002: Pont-DC_Brep 1
+    6400004: Pont-DC_Brep 2
+    6400006: Pont-DC_Brep 3
+    6400008: Pont-DC_Brep 4
+    6400010: Pont-DC_Brep 5
+    6400012: Travee00-DC_Brep
+    6400014: Travee00-DC_Brep 1
+    6400016: Travee00-DC_Brep 10
+    6400018: Travee00-DC_Brep 11
+    6400020: Travee00-DC_Brep 12
+    6400022: Travee00-DC_Brep 13
+    6400024: Travee00-DC_Brep 14
+    6400026: Travee00-DC_Brep 15
+    6400028: Travee00-DC_Brep 16
+    6400030: Travee00-DC_Brep 17
+    6400032: Travee00-DC_Brep 18
+    6400034: Travee00-DC_Brep 19
+    6400036: Travee00-DC_Brep 2
+    6400038: Travee00-DC_Brep 20
+    6400040: Travee00-DC_Brep 21
+    6400042: Travee00-DC_Brep 22
+    6400044: Travee00-DC_Brep 23
+    6400046: Travee00-DC_Brep 24
+    6400048: Travee00-DC_Brep 25
+    6400050: Travee00-DC_Brep 26
+    6400052: Travee00-DC_Brep 27
+    6400054: Travee00-DC_Brep 28
+    6400056: Travee00-DC_Brep 29
+    6400058: Travee00-DC_Brep 3
+    6400060: Travee00-DC_Brep 30
+    6400062: Travee00-DC_Brep 31
+    6400064: Travee00-DC_Brep 32
+    6400066: Travee00-DC_Brep 33
+    6400068: Travee00-DC_Brep 34
+    6400070: Travee00-DC_Brep 35
+    6400072: Travee00-DC_Brep 36
+    6400074: Travee00-DC_Brep 37
+    6400076: Travee00-DC_Brep 38
+    6400078: Travee00-DC_Brep 39
+    6400080: Travee00-DC_Brep 4
+    6400082: Travee00-DC_Brep 40
+    6400084: Travee00-DC_Brep 41
+    6400086: Travee00-DC_Brep 42
+    6400088: Travee00-DC_Brep 43
+    6400090: Travee00-DC_Brep 44
+    6400092: Travee00-DC_Brep 45
+    6400094: Travee00-DC_Brep 46
+    6400096: Travee00-DC_Brep 47
+    6400098: Travee00-DC_Brep 48
+    6400100: Travee00-DC_Brep 49
+    6400102: Travee00-DC_Brep 5
+    6400104: Travee00-DC_Brep 50
+    6400106: Travee00-DC_Brep 51
+    6400108: Travee00-DC_Brep 52
+    6400110: Travee00-DC_Brep 53
+    6400112: Travee00-DC_Brep 54
+    6400114: Travee00-DC_Brep 55
+    6400116: Travee00-DC_Brep 56
+    6400118: Travee00-DC_Brep 57
+    6400120: Travee00-DC_Brep 58
+    6400122: Travee00-DC_Brep 59
+    6400124: Travee00-DC_Brep 6
+    6400126: Travee00-DC_Brep 60
+    6400128: Travee00-DC_Brep 61
+    6400130: Travee00-DC_Brep 62
+    6400132: Travee00-DC_Brep 63
+    6400134: Travee00-DC_Brep 64
+    6400136: Travee00-DC_Brep 65
+    6400138: Travee00-DC_Brep 66
+    6400140: Travee00-DC_Brep 67
+    6400142: Travee00-DC_Brep 68
+    6400144: Travee00-DC_Brep 69
+    6400146: Travee00-DC_Brep 7
+    6400148: Travee00-DC_Brep 70
+    6400150: Travee00-DC_Brep 71
+    6400152: Travee00-DC_Brep 72
+    6400154: Travee00-DC_Brep 73
+    6400156: Travee00-DC_Brep 74
+    6400158: Travee00-DC_Brep 75
+    6400160: Travee00-DC_Brep 76
+    6400162: Travee00-DC_Brep 77
+    6400164: Travee00-DC_Brep 78
+    6400166: Travee00-DC_Brep 8
+    6400168: Travee00-DC_Brep 9
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,21 +1,24 @@
-public class Roue
+using UnityEngine;
+
+public class Roue : MonoBehaviour
 {
-  // vitesse de rotation de la roue
-  private float _rot_vitesse;
-  // diamètre de la roue
-  private float _diametre;
+  	// vitesse de rotation de la roue
+  	public float _rot_vitesse;
+  	// diamètre de la roue
+  	public float _nbDents;
+	public Vector3 rotAxis;
 
   /* constructeur
    * Le diamètre de la roue ne peut être modifiè après sa création
    **/
-  public Roue(float diametre)
+  public Roue(int dents)
   {
-    _diametre = diametre;
+    _nbDents = dents;
     _rot_vitesse = 0.0f;
   }
 
   
-  public float getDiametre(){return _diametre; }
+  public float getDents(){return _nbDents; }
   public float getVitesse(){return _rot_vitesse;}
 
   public void setVitesse(float vitesse){ _rot_vitesse = vitesse; }
@@ -26,6 +29,8 @@ public class Roue
    **/
   public void tourner(Roue menante)
   {
-    
+		float vitesse = -(menante.getDents () / _nbDents) * menante.getVitesse ();
+		setVitesse (vitesse);
+		transform.Rotate (_rot_vitesse * rotAxis);
   }
 }
